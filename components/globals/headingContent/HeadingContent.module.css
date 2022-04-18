@@ -1,0 +1,9 @@
+.hdingBox {
+    width: 65%;
+}
+
+@media(max-width:768px) {
+    .hdingBox {
+        width: 100%;
+    }
+}

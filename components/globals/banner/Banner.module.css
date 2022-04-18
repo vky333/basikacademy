@@ -1,0 +1,202 @@
+.bannerContainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.bannerContainer a {
+    display: none !important;
+}
+
+.bannerContainer .bannerTextCont {
+    bottom: 10rem;
+    left: 10%;
+    text-align: left;
+    padding: 2rem 0;
+    width: 60%;
+}
+
+.banerBtnCont {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.enrolBtn {
+    padding: 0.6rem 2rem;
+    margin-right: 2rem;
+}
+
+.knowMoreBtn {
+    border: rgb(87, 93, 233) 2px solid;
+    color: rgb(87, 93, 233);
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    width: 160px;
+    text-align: center;
+}
+
+.knowMoreBtn:hover {
+    border: rgb(255, 255, 255) 2px solid;
+    background-color: #000;
+    transition: 0.5s;
+    color: #FFF;
+}
+
+.bannerTextCont h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    width: 75%;
+    color: #FFF;
+    line-height: 60px;
+}
+
+.bannerTextCont h4 {
+    margin: 1.5rem 0;
+}
+
+.bannerTextCont h5 {
+    text-decoration: underline;
+}
+
+.bannerTextCont p {
+    width: 50%;
+}
+
+.progressBarContainer {
+    position: absolute;
+    bottom: 1rem;
+    width: 65%;
+    margin: auto;
+    left: 9.5%;
+    right: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 5;
+}
+
+.progressBarContainer div {
+    display: block;
+    width: 20%;
+    padding: 0 10px;
+    color: white;
+    height: 6rem;
+}
+
+.progressBarContainer div span.progressBar {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    display: block;
+}
+
+.progressBarContainer div span.progressBar .inProgress {
+    background-color: #1970fa;
+    width: 0%;
+    height: 0px;
+    padding: 0;
+}
+
+.progressBarContainer p {
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 16px;
+    color: #c9c4c4;
+}
+
+.bannerContainer button[data-bs-target] {
+    width: 20%;
+    height: 8rem;
+}
+
+@media(max-width:1300px) {
+    .bannerTextCont h1 {
+        font-size: 2.5rem;
+        width: 80%;
+        line-height: 50px;
+    }
+}
+
+@media(max-width:1150px) {
+    .bannerTextCont h1 {
+        font-size: 2.5rem;
+        width: 100%;
+    }
+    .progressBarContainer {
+        bottom: 20px;
+        line-height: normal;
+    }
+    .bannerTextCont h4 {
+        margin: 0.8rem 0;
+    }
+    .bannerContainer .bannerTextCont {
+        bottom: 8rem;
+        padding: 1rem 0;
+        width: 70%;
+    }
+    .enrolBtn {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:992px) {
+    .bannerTextCont h1 {
+        font-size: 1.5rem;
+        width: 90%;
+    }
+    .bannerTextCont h4 {
+        margin: 0.5rem 0;
+    }
+    .bannerContainer .bannerTextCont {
+        bottom: 3rem;
+        padding: 1rem 0;
+        width: 100%;
+    }
+    .enrolBtn {
+        font-size: 14px;
+    }
+    .progressBarContainer {
+        display: none;
+    }
+    .bannerContainer button[data-bs-target] {
+        height: 3px;
+        border-radius: 0px !important;
+    }
+}
+
+@media(max-width:768px) {
+    .bannerTextCont h1 {
+        font-size: 1rem;
+        width: 80%;
+    }
+}
+
+@media(max-width:600px) {
+    .enrolBtn {
+        font-size: 13px;
+        padding: 0.3rem 1rem;
+    }
+    .bannerTextCont h1,
+    .bannerTextCont h4,
+    .bannerTextCont h5 {
+        font-size: 1rem;
+        line-height: normal;
+    }
+    .bannerContainer .bannerTextCont {
+        bottom: 1rem;
+    }
+    .banerBtnCont {
+        font-size: 13px;
+        margin-top: 0.5rem;
+    }
+}
+
+@media(max-width:500px) {
+    .enrolBtn {
+        font-size: 12px;
+        padding: 0.2rem 1rem;
+    }
+}

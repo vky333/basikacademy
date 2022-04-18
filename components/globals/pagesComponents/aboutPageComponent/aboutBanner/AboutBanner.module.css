@@ -1,0 +1,69 @@
+.staticBanner {
+    width: 100%;
+    background: url(/Home/ban/ban1.png);
+    height: 100%;
+    min-height: 558px;
+    background-size: cover;
+    padding: 2rem 0;
+    color: #FFF;
+}
+
+.staticBanner h1 {
+    color: #fff;
+}
+
+.textBannerBox {
+    width: 45%;
+    margin-top: 4rem;
+}
+
+.starCont {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.banerBtnCont {
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.starCont img {
+    margin-top: -5px;
+    margin-right: 1.5rem;
+}
+
+.starCont span {
+    margin-right: 2rem;
+}
+
+.banerBtnCont button {
+    margin-right: 2rem;
+    border-radius: 30px;
+    padding: 0.5rem 3rem;
+}
+
+.banerBtnCont button:last-child {
+    margin-right: 0;
+}
+
+@media(max-width:992px) {
+    .staticBanner {
+        min-height: 450px;
+    }
+    .textBannerBox {
+        width: 100%;
+        margin-top: 6rem;
+    }
+    .staticBanner h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width:500px) {
+    .banerBtnCont button {
+        margin-right: 0.5rem;
+        border-radius: 30px;
+        padding: 0.2rem 1rem;
+        font-size: 15px;
+    }
+}

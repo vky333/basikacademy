@@ -1,0 +1,38 @@
+h2.title_ourcourse {
+    color: #1970fa;
+    margin: 0 0 1.5rem 0;
+    font-weight: bold;
+}
+
+.aboutcourseBtn {
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 8px;
+    background-color: #0d6efd;
+    padding: 0.5rem 1rem;
+    color: #FFF;
+    transition: 0.5s;
+}
+
+.aboutcourseBtn:hover {
+    background-color: #000;
+    color: #FFF;
+}
+
+.aboutCourse {
+    font-size: 14px;
+    color: #858585;
+    margin-bottom: 6px;
+    display: inline-block;
+}
+
+.cardText {
+    font-weight: 300;
+}
+
+.cardFooter {
+    margin-top: 2rem;
+}
+
+@media(max-width:768px) {}

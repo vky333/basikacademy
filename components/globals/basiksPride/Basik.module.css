@@ -1,0 +1,89 @@
+.basikPrideSection {
+    background-color: #f0f8ff;
+    padding: 4rem 0;
+}
+
+.basikMain ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.basikMain ul li.imgCont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.imgCont img {
+    margin-right: 1rem;
+    max-width: 100%;
+}
+
+.basikMainfluid {
+    width: 85%;
+    height: 100%;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+.basikMain {
+    width: 100%;
+    height: 100%;
+}
+
+.prideNumber {
+    margin-bottom: 1rem;
+}
+
+.prideNumber h1 {
+    font-size: 3.5rem;
+    color: #14546b;
+    margin-bottom: 0px;
+}
+
+.prideNumber span {
+    font-size: 1.6rem;
+}
+
+@media(max-width:992px) {
+    .basikMainfluid {
+        width: 95%;
+    }
+    .prideNumber h1 {
+        font-size: 2.5rem;
+    }
+    .prideNumber span {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:768px) {
+    .prideNumber h1 {
+        font-size: 1.5rem;
+    }
+    .basikMain ul {
+        flex-direction: column-reverse;
+    }
+    .imgCont img:nth-of-type(3) {
+        margin-right: 0em;
+    }
+    .basikMainfluid {
+        width: 99%;
+    }
+    .basikMain ul li {
+        width: 100%;
+    }
+    .basikMain ul li.imgCont {
+        justify-content: center;
+        width: 30%;
+    }
+    .prideNumber {
+        float: left;
+        width: auto;
+        margin-right: 3rem;
+    }
+}

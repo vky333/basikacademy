@@ -1,0 +1,73 @@
+/*** Header Css Start *****/
+
+.mainHeader {
+    font-size: 16px;
+    height: 92px;
+    background-color: #f8f9fa;
+}
+
+.menuName a {
+    font-weight: bold;
+    color: #333!important;
+    margin: 0 1rem;
+    transition: 0.5s;
+    border-radius: 5px;
+    line-height: normal;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.menuName a:hover {
+    border-bottom: #0a58ca 2px solid;
+}
+
+.navRight a.logBtn {
+    color: #1970fa !important;
+    font-weight: bold;
+    margin-right: 1rem;
+    font-size: 16px;
+}
+
+.navRight a.logBtn:hover {
+    color: #333;
+    transition: 0.5s;
+}
+
+.navRight a.exploreBtn {
+    color: #FFF!important;
+    background-color: #1970fa;
+    border-radius: 2rem;
+    width: 10rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.navRight a.exploreBtn:hover {
+    background-color: #000;
+    transition: 0.5s;
+}
+
+.menuName a:hover {
+    color: #1970fa important;
+}
+
+.moblieNav {
+    padding-right: 1rem;
+}
+
+
+/*** Header Css End *****/
+
+@media(max-width:992px) {
+    .mainHeader {
+        font-size: 14px;
+        height: auto;
+    }
+    .mhide {
+        display: none;
+    }
+    .navRight {
+        margin-left: 1rem;
+    }
+}

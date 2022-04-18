@@ -1,0 +1,688 @@
+        html,
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+            font-size: 14px;
+            color: #000;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            margin: 0 0 1.5rem 0;
+            line-height: normal;
+        }
+        
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+        
+        ul,
+        li {
+            list-style: none;
+        }
+        
+        h1 {
+            font-weight: bold;
+            color: #000;
+        }
+        
+        .heading-box p {
+            color: #333;
+            font-size: 21px;
+            font-weight: 300;
+        }
+        
+        .mobNav {
+            display: none;
+        }
+        
+        button {
+            border: none;
+            outline: none;
+            border-radius: 30px !important;
+            font-weight: 600 !important;
+        }
+        
+        .accordion .accordion-button {
+            border-radius: 4px !important;
+            font-weight: bold !important;
+        }
+        
+        .exploreBtn {
+            padding: 0.3rem 1.3rem;
+        }
+        
+        input {
+            border: none;
+            background: none;
+            outline: none;
+        }
+        
+        .viewBorderBtn {
+            border: #0d6efd 2px solid;
+            padding: 0.5rem 1.5rem;
+        }
+        
+        .talkExpertLink .talkexpert-btn {
+            padding: 0.6rem 3rem;
+            font-size: 20px;
+        }
+        
+        .talkExpertLink h1 {
+            color: #FFF;
+            margin-bottom: 3rem;
+        }
+        
+        .overCorsBx {
+            margin-top: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        section {
+            display: block;
+        }
+        
+        .exploreBtnDHide {
+            display: none;
+        }
+        
+        .headerLogo {
+            max-width: 154px;
+            width: 100%;
+        }
+        
+        .headerLogo img {
+            max-width: 100%;
+        }
+        
+        .banerSection .carousel-indicators {
+            left: -3%;
+            right: auto;
+            width: 65%;
+            bottom: 0rem;
+            margin: 0 12%;
+            opacity: 0;
+            z-index: 6;
+        }
+        /***** Section Global Carousel Start ****/
+        
+        .globalCarousel {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            transition: all 1s ease;
+        }
+        
+        .globalCarousel .carousel-control-prev {
+            left: -10%;
+            transition: all 1s ease;
+        }
+        
+        .globalCarousel .carousel-control-next {
+            right: -10%;
+            transition: all 1s ease;
+        }
+        
+        .globalCarousel:hover .carousel-control-prev {
+            left: 0%;
+            transition: all 1s ease;
+        }
+        
+        .globalCarousel:hover .carousel-control-next {
+            right: 0%;
+            transition: all 1s ease;
+        }
+        
+        .globalCarousel .carousel-control-prev-icon {
+            position: relative;
+            background: #000;
+            width: 50px;
+            height: 50px;
+            border-radius: 0 10px 10px 0px;
+        }
+        
+        .globalCarousel .carousel-control-next-icon {
+            position: relative;
+            background: #000;
+            width: 50px;
+            height: 50px;
+            border-radius: 10px 0 0 10px;
+        }
+        
+        .globalCarousel .carousel-control-next-icon::after {
+            content: "";
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+            right: 0;
+            background-repeat: no-repeat;
+            top: 5px;
+        }
+        
+        .globalCarousel .carousel-control-prev-icon::after {
+            content: "";
+            width: 40px;
+            height: 40px;
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+            position: absolute;
+            left: 0;
+            background-repeat: no-repeat;
+            top: 5px;
+        }
+        
+        .globalCarousel .carousel-control-next,
+        .globalCarousel .carousel-control-prev {
+            width: 5%;
+        }
+        /***** Section Global Carousel  End ****/
+        /***** Skill Section Start ****/
+        
+        #skillsBx .nav-pills .nav-link {
+            text-align: left;
+            color: #333;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: normal;
+            transition: 0.5s;
+            cursor: pointer;
+            border: #eee 1px solid;
+            border-radius: 5px;
+        }
+        
+        #skillsBx .nav-pills .nav-link:hover {
+            color: #fff;
+            background-color: #0d6efd;
+        }
+        
+        #skillsBx .nav-pills .nav-link span img {
+            margin-right: 1rem;
+        }
+        
+        #skillsBx .nav-pills .nav-link.active img {
+            filter: invert(1);
+        }
+        
+        #skillsBx .nav-pills .nav-link.active,
+        #skillsBx .nav-pills .show>.nav-link {
+            color: #fff;
+        }
+        
+        .card {
+            border-radius: 1.25rem;
+        }
+        /***** Skill Section End ****/
+        /***** student Comments Slider Start ****/
+        
+        .studentCommentsSlider {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .studentCommentsSlider .carousel-inner {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            border-radius: 18px;
+            height: 100%;
+            background: #606c88;
+            background: -moz-linear-gradient(top, #606c88 0%, #3f4c6b 100%);
+            background: -webkit-linear-gradient(top, #606c88 0%, #3f4c6b 100%);
+            background: linear-gradient(to bottom, #606c88 0%, #3f4c6b 100%);
+            filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b', GradientType=0);
+        }
+        
+        .studentCommentsSlider .carousel-item {
+            width: 100%;
+            min-height: 400px;
+            height: 100%;
+        }
+        
+        .studentCommentsSlider .carousel-dark .carousel-caption {
+            color: #FFF;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 40vh;
+            margin: 0 0 0 0;
+            padding: 0;
+            top: 6rem;
+            width: 55%;
+            margin: 0 auto;
+        }
+        
+        .studentCommentsSlider .carousel-dark .carousel-caption p {
+            font-weight: bold;
+            color: #FFF;
+        }
+        
+        .studentCommentsSlider .carousel-indicators {
+            display: none;
+        }
+        
+        .studentCommentsSlider .carousel-dark .carousel-control-next-icon,
+        .studentCommentsSlider .carousel-dark .carousel-control-prev-icon {
+            filter: invert(0) grayscale(100);
+        }
+        /***** student Comments Slider End ****/
+        /***** section.partner Counter Start ****/
+        
+        section.partnerCounter {
+            background-color: #FFF;
+            padding: 4rem 0;
+        }
+        
+        section.partnerCounter p {
+            font-size: 1.5rem;
+        }
+        
+        section.partnerCounter h1 {
+            margin-bottom: 0.3rem;
+        }
+        
+        .partnerCounter .partnerCounter p {
+            font-size: 16px;
+            font-weight: 500;
+        }
+        
+        .partnerCounter hr {
+            margin: 2rem 0;
+            color: inherit;
+            background-color: currentColor;
+            border: 0;
+            opacity: 0.25;
+        }
+        
+        .partnerCounter .partner-img {
+            display: inline-block;
+            max-width: 150px;
+            margin: 2rem 0;
+        }
+        
+        .partnerCounter .partner-img img {
+            max-width: 100%;
+        }
+        
+        .partnerCounter .heading-box {
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+        
+        .partnerCounter .partners-logo.text-end {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        /***** section.partner Counter End ****/
+        /***** section Talk Expert Link Start ****/
+        
+        section.talkExpertLink {
+            padding: 4rem 0;
+            text-align: center;
+            color: #fff;
+            background: url(/talk-to-our-expert-counsellor-background.png);
+            width: 100%;
+            background-size: cover;
+        }
+        
+        .aboutEnrollSection section.talkExpertLink {
+            background: #FFF;
+        }
+        
+        .aboutEnrollSection h1 {
+            color: #000;
+        }
+        
+        .talkExpertLink .heading-box h1 {
+            color: #FFF;
+            margin-bottom: 5rem;
+        }
+        /***** section Talk Expert Link End ****/
+        /***** section Blog Start ****/
+        
+        .blog {
+            padding: 4rem 0;
+            background-color: #FFF;
+        }
+        
+        .blog .blog-card {
+            width: 90%;
+            margin: 0px auto 30px;
+        }
+        
+        .blog .blogImg img {
+            max-width: 100%;
+        }
+        
+        .blog .blog-content {
+            padding: 1rem 0;
+        }
+        
+        .blog .blog-content span {
+            font-weight: 300;
+            font-size: 1.2rem;
+        }
+        
+        .blog .blog-content h5 {
+            margin: 10px 0;
+        }
+        /***** section Blog End ****/
+        /***** Footer Start ****/
+        
+        footer.footerContainer {
+            padding: 4rem 0;
+            background-color: #f0f8ff;
+        }
+        
+        .footerContainer .logo-footer img {
+            max-width: 93%;
+        }
+        
+        .footerContainer .footerlist {
+            float: right;
+        }
+        
+        .footerContainer .footerlist li {
+            display: block;
+            line-height: 29px;
+        }
+        
+        .footerContainer .footerlist li a {
+            color: #646464;
+            font-size: 14px;
+        }
+        
+        section.copyright-sec {
+            padding: 25px 0;
+            color: #646464;
+            border-top: 1px solid #ddd;
+            background-color: #f0f8ff;
+        }
+        
+        .copyright-sec .copyright a {
+            color: #4e4e4e;
+        }
+        
+        .copyright-sec .copyright p {
+            font-size: 16px;
+        }
+        
+        .footerContainer .social-footer {
+            margin-top: 25px;
+        }
+        
+        .footerContainer .social-footer a {
+            color: #fff;
+            display: inline-block;
+            width: 35px;
+            height: 35px;
+            text-align: center;
+            line-height: 34px;
+            border-radius: 3px;
+            margin: 0rem 0.4rem 0rem 0rem;
+            box-shadow: 0px 3px 7px #3333333d;
+        }
+        
+        .footerContainer .social-footer a:nth-child(1) {
+            background-color: #4867AA;
+        }
+        
+        .footerContainer .social-footer a:nth-child(2) {
+            background-color: #5DA9DD;
+        }
+        
+        .footerContainer .social-footer a:nth-child(3) {
+            background-color: #0077B5;
+        }
+        
+        .footerContainer .social-footer a:nth-child(4) {
+            background-color: #FA4026;
+            margin-right: 0;
+        }
+        /***** Footer End ****/
+        /****** About Page Accordion Start ****/
+        
+        .accordion .accordion-item:first-of-type {
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        
+        .accordion .accordion-header {
+            margin-bottom: 0;
+            border-left: #c99efd 4px solid;
+            border-radius: 5px;
+        }
+        
+        .accordion .accordion-item {
+            margin-bottom: 0.5rem;
+            border: 1px solid rgba(0, 0, 0, .125);
+            border-radius: 5px;
+            box-shadow: #e9e9e9 1px 1px 3px;
+        }
+        
+        .accordion .accordion-button {
+            font-size: 1.1rem;
+        }
+        /****** About Page Accordion End****/
+        /******** About Page Student Review slider Section Start*****/
+        
+        .sliderSection06 {
+            padding: 4rem 0;
+            background-color: #eee;
+        }
+        
+        .sliderSection06 .carousel-item .carousel-caption {
+            position: inherit;
+        }
+        
+        .sliderSection06 h1,
+        .sliderSection06 h6 {
+            text-align: center;
+        }
+        
+        .sliderSection06 p {
+            margin: 1.5rem 0;
+        }
+        
+        .sliderSection06 img {
+            text-align: center;
+            margin: 0 auto;
+            max-width: 75px;
+        }
+        
+        .sliderSection06 h4 {
+            margin-bottom: 0.5rem;
+            color: #0077B5;
+            font-weight: bold;
+        }
+        
+        .sliderSection06 h5 {
+            margin-bottom: 0.5rem;
+            color: #ab7777;
+            font-size: 14px;
+        }
+        
+        .sliderSection06 .carousel-indicators [data-bs-target] {
+            width: 10px;
+            height: 10px;
+            background-color: #0077B5;
+            border-radius: 100% !important;
+        }
+        
+        .sliderSection06 .carousel {
+            position: relative;
+            height: 86%;
+        }
+        /******** About Page Student Review slider Section Start*****/
+        
+        @media(max-width:1100px) {}
+        
+        @media(max-width:992px) {
+            .headerLogo {
+                max-width: 100px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            .navbar-collapse {
+                top: 4.1rem;
+                flex-basis: 100%;
+                flex-grow: 1;
+                align-items: center;
+                position: absolute;
+                z-index: 7;
+                background: #FFF;
+                width: 100%;
+                transform: translate(-100%, 0);
+                display: block !important;
+                left: 0rem;
+                height: 100vh;
+                transition: all 1s ease;
+            }
+            .exploreBtnDHide {
+                display: block;
+                position: absolute;
+                right: 4rem;
+                z-index: 2;
+                top: 1.1rem;
+                width: auto;
+                padding: 0.3rem 1rem;
+                font-size: 1rem;
+            }
+            .mHide {
+                display: none;
+            }
+            .mobNav {
+                font-size: 25px;
+                display: block;
+            }
+            .nav-link {
+                padding: 1.5rem 0rem 0rem 0;
+            }
+            .navShow {
+                transform: translate(0%, 0);
+            }
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            p {
+                margin: 0 0 0.5rem 0;
+            }
+            .banerSection .carousel-indicators {
+                bottom: 0px;
+            }
+            .banerSection .carousel-indicators {
+                bottom: 5px;
+                left: 0;
+                right: 0;
+                width: 65%;
+                margin: 0 12%;
+                opacity: 1;
+            }
+        }
+        
+        @media(max-width:768px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+            .h5,
+            h5 {
+                font-size: 1rem;
+            }
+            .overCorsBx {
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+            .studentCommentsSlider .carousel-dark .carousel-caption {
+                left: 5%;
+                height: auto;
+                top: 2rem;
+                width: 80%;
+                right: 5%;
+            }
+        }
+        
+        @media(max-width:600px) {
+            .logo-footer {
+                float: left;
+                width: 30%;
+                margin-right: 2rem;
+            }
+            footer.footerContainer {
+                padding: 1rem 0;
+            }
+            .footerContainer .social-footer {
+                float: right;
+            }
+            .footerContainer .footerlist {
+                float: left;
+                margin-top: 2rem;
+            }
+            .footerContainer .footerlist li {
+                line-height: 23px;
+            }
+            .copyright-sec .copyright p,
+            .copyright {
+                font-size: 12px;
+                text-align: left !important;
+            }
+            section.copyright-sec {
+                padding: 1rem 0;
+            }
+            #skillsBx .nav-pills .nav-link.active,
+            #skillsBx .nav-pills .show>.nav-link {
+                padding: 0.5rem 0.5rem;
+                margin: 0 0;
+            }
+            #skillsBx .nav-pills .nav-link {
+                font-size: 14px;
+                margin: 1rem 0;
+                padding: 0rem 0;
+            }
+        }
+        
+        .carousel-item {
+            opacity: 0;
+            transition-delay: 300ms;
+            transition-duration: 300ms;
+            transform-origin: center right;
+            transform: scale(1);
+            transition-timing-function: cubic-bezier(.32, 0, 1, .32);
+            transition: all 1s ease;
+        }
+        
+        .carousel-item-next,
+        .carousel-item-prev,
+        .carousel-item.active {
+            display: block;
+            opacity: 1;
+            -webkit-animation: fadeImg 0.8s;
+            animation: fadeImg 0.8s;
+        }
