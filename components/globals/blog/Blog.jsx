@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-
+import Image from 'next/image';
 const Blog = () =>{
     return(
         <>
@@ -15,7 +15,7 @@ const Blog = () =>{
                             <div className="col-sm-4">
                                 <div className="blog-card">
                                     <div className="blogImg">
-                                        <img src="/blog/blog-1.png" alt="Blog" />
+                                        <Image width={323} height={298} src="/blog/blog-1.png" alt="Blog" />
                                     </div>
                                     <div className="blog-content">
                                         <span>Jobs</span>
@@ -26,7 +26,7 @@ const Blog = () =>{
                             <div className="col-sm-4">
                                 <div className="blog-card">
                                     <div className="blogImg">
-                                        <img src="/blog/blog-2.png" alt="Blog" />
+                                        <Image width={323} height={380} src="/blog/blog-2.png" alt="Blog" />
                                     </div>
                                     <div className="blog-content">
                                         <span>Career Advice</span>
@@ -37,7 +37,7 @@ const Blog = () =>{
                             <div className="col-sm-4">
                                 <div className="blog-card">
                                     <div className="blogImg">
-                                        <img src="/blog/blog-3.png" alt="Blog" />
+                                        <Image width={323} height={175} src="/blog/blog-3.png" alt="Blog" />
                                     </div>
                                     <div className="blog-content">
                                         <span>Did you know?</span>
@@ -46,7 +46,7 @@ const Blog = () =>{
                                 </div>
                                 <div className="blog-card">
                                     <div className="blogImg">
-                                        <img src="/blog/blog-4.png" alt="Blog" />
+                                        <Image width={323} height={373} src="/blog/blog-4.png" alt="Blog" />
                                     </div>
                                     <div className="blog-content">
                                         <span>career</span>

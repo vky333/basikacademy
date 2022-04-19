@@ -3,6 +3,7 @@ import styles from './OurCourses.module.css';
 import {Tab, Row, Col, Nav,section,Button} from 'react-bootstrap';
 import ProductsCarousel from '../productsCarousel/ProductsCarousel';
 import HeadingContent from '../headingContent/HeadingContent';
+import Image from 'next/image';
 
 const OurCourses = () => {
     return (        
@@ -36,13 +37,14 @@ const OurCourses = () => {
                         <Col md={3}>
                         <Nav variant="pills" className="flex-column">
                           <Nav.Item>
-                            <Nav.Link eventKey="first"><span><img className="d-block" width="35" src = "/course/icon-everything.png" alt = "Everything" /></span>Everything</Nav.Link>
-                            <Nav.Link eventKey="second"><span><img className="d-block" width="35" src = "/course/icon-degree.png" alt = "DegreeCourses"/></span>Degree Courses</Nav.Link>
-                            <Nav.Link eventKey="third"><span><img className="d-block" width="35" src = "/course/icon-diploma.png" alt = "DiplomaCourses"/></span>Diploma Courses</Nav.Link>
-                            <Nav.Link eventKey="four"><span><img className="d-block" width="35" src = "/course/icon-short-term-certificate.png" alt = "ShortTermCertificate" /></span>Short Term Certificate Courses</Nav.Link>
+                            <Nav.Link eventKey="first"><Image className="d-block" width={30} height={30} src = "/course/icon-everything.png" alt = "Everything" /><span>Everything</span></Nav.Link>
+                            <Nav.Link eventKey="second"><Image className="d-block" width={35} height={35} src = "/course/icon-degree.png" alt = "DegreeCourses"/><span>Degree Courses</span></Nav.Link>
+                            <Nav.Link eventKey="third"><Image className="d-block" width={35} height={35} src = "/course/icon-diploma.png" alt = "DiplomaCourses"/><span>Diploma Courses</span></Nav.Link>
+                            <Nav.Link eventKey="four"><Image className="d-block" width={35} height={35} src = "/course/icon-short-term-certificate.png" alt = "ShortTermCertificate" /><span>Short Term Certificate Courses</span></Nav.Link>
                         </Nav.Item>
                         </Nav>
-                        <div class="overCorsBx"><Button variant="outline-primary" size="lg" className="viewBorderBtn">Know More</Button></div>
+                        <div className="overCorsBx"><Button variant="outline-primary" size="lg" className="viewBorderBtn">Know More</Button>
+                        </div>
                         
                         </Col>
                         <Col md={9}>

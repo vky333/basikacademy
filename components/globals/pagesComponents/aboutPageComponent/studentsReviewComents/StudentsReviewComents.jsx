@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../studentsReviewComents/StudentsReview.module.css';
 import {section,Carousel} from 'react-bootstrap';
+import Image from 'next/image';
 
 export const StudentsReviewComents = () => {
     return(
@@ -14,8 +15,8 @@ export const StudentsReviewComents = () => {
                             <Carousel>
                                     <Carousel.Item interval={1000}>
                                         <div className={`${styles.studentInfo01}`}>
-                                                <img
-                                                className="d-block"
+                                                <Image
+                                                className="d-block" width={80} height={80}
                                                 src="/review-image-desktop.png"
                                                 alt="FirstSlide"
                                                 />
@@ -28,8 +29,8 @@ export const StudentsReviewComents = () => {
                                                 <h5>From Delhi</h5>
                                         </div>
                                         <div className={`${styles.studentInfo01}`}>
-                                                <img
-                                                className="d-block"
+                                        <Image
+                                                className="d-block" width={80} height={80}
                                                 src="/review-image-desktop.png"
                                                 alt="FirstSlide"
                                                 />
@@ -47,8 +48,8 @@ export const StudentsReviewComents = () => {
                                     </Carousel.Item>
                                     <Carousel.Item interval={500}>
                                     <div className={`${styles.studentInfo01}`}>
-                                                <img
-                                                className="d-block"
+                                    <Image
+                                                className="d-block" width={80} height={80}
                                                 src="/review-image-desktop.png"
                                                 alt="FirstSlide"
                                                 />
@@ -61,8 +62,8 @@ export const StudentsReviewComents = () => {
                                                 <h5>From Delhi</h5>
                                         </div>
                                         <div className={`${styles.studentInfo01}`}>
-                                                <img
-                                                className="d-block"
+                                        <Image
+                                                className="d-block" width={80} height={80}
                                                 src="/review-image-desktop.png"
                                                 alt="FirstSlide"
                                                 />
@@ -77,8 +78,8 @@ export const StudentsReviewComents = () => {
                                     </Carousel.Item>
                                     <Carousel.Item>
                                     <div className={`${styles.studentInfo01}`}>
-                                                <img
-                                                className="d-block"
+                                    <Image
+                                                className="d-block" width={80} height={80}
                                                 src="/review-image-desktop.png"
                                                 alt="FirstSlide"
                                                 />
@@ -91,8 +92,8 @@ export const StudentsReviewComents = () => {
                                                 <h5>From Delhi</h5>
                                         </div>
                                         <div className={`${styles.studentInfo01}`}>
-                                                <img
-                                                className="d-block"
+                                        <Image
+                                                className="d-block" width={80} height={80}
                                                 src="/review-image-desktop.png"
                                                 alt="FirstSlide"
                                                 />

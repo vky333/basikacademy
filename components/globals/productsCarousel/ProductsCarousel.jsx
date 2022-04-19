@@ -1,6 +1,7 @@
 import React from "react";
 import {Carousel,} from 'react-bootstrap';
 import styles from './ProductsCarousel.module.css'; 
+import Image from 'next/image';
 
 const ProductsCarousel = () =>{
     return(
@@ -11,7 +12,7 @@ const ProductsCarousel = () =>{
           <div className="row">
             <div className="col-md-4 mb-3">
                 <div className="card">
-                    <img className="d-block" width="100%" src="/course/course-image-1.png" alt="Everything" />
+                    <Image className="d-block" width={262} height={149} src="/course/course-image-1.png" alt="Everything" />
                     <div className="card-body">
                         <p className={`${styles.aboutCourse}`}>Career Advancing Diplom program</p>
                         <h4 className="card-title">Professional Diploma in Accounts & e-Taxation</h4>
@@ -25,7 +26,7 @@ const ProductsCarousel = () =>{
             </div>
             <div className="col-md-4 mb-3">
                 <div className="card">
-                    <img className="d-block" width="100%" src="/course/course-image-2.png" alt="Everything" />
+                    <Image className="d-block" width={262} height={149} src="/course/course-image-2.png" alt="Everything" />
                     <div className="card-body">
                         <p className={`${styles.aboutCourse}`}>Career Advancing Diplom program</p>
                         <h4 className="card-title">Professional Diploma in Accounts & e-Taxation</h4>
@@ -39,7 +40,7 @@ const ProductsCarousel = () =>{
             </div>
             <div className="col-md-4 mb-3">
                 <div className="card">
-                    <img className="d-block" width="100%" src="/course/course-image-3.png" alt="Everything" />
+                    <Image className="d-block" width={262} height={149} src="/course/course-image-3.png" alt="Everything" />
                     <div className="card-body">
                         <p className={`${styles.aboutCourse}`}>Career Advancing Diplom program</p>
                         <h4 className="card-title">Professional Diploma in Accounts & e-Taxation</h4>
@@ -57,7 +58,7 @@ const ProductsCarousel = () =>{
                   <div className="row">
             <div className="col-md-4 mb-3">
                 <div className="card">
-                    <img className="d-block" width="100%" src="/course/course-image-1.png" alt="Everything" />
+                    <Image className="d-block" width={262} height={149} src="/course/course-image-1.png" alt="Everything" />
                     <div className="card-body">
                         <p className={`${styles.aboutCourse}`}>Career Advancing Diplom program</p>
                         <h4 className="card-title">Professional Diploma in Accounts & e-Taxation</h4>
@@ -71,7 +72,7 @@ const ProductsCarousel = () =>{
             </div>
             <div className="col-md-4 mb-3">
                 <div className="card">
-                    <img className="d-block" width="100%" src="/course/course-image-2.png" alt="Everything" />
+                    <Image className="d-block" width={262} height={149} src="/course/course-image-2.png" alt="Everything" />
                     <div className="card-body">
                         <p className={`${styles.aboutCourse}`}>Career Advancing Diplom program</p>
                         <h4 className="card-title">Professional Diploma in Accounts & e-Taxation</h4>
@@ -85,7 +86,7 @@ const ProductsCarousel = () =>{
             </div>
             <div className="col-md-4 mb-3">
                 <div className="card">
-                    <img className="d-block" width="100%" src="/course/course-image-3.png" alt="Everything" />
+                    <Image className="d-block" width={262} height={149} src="/course/course-image-3.png" alt="Everything" />
                     <div className="card-body">
                         <p className={`${styles.aboutCourse}`}>Career Advancing Diplom program</p>
                         <h4 className="card-title">Professional Diploma in Accounts & e-Taxation</h4>
@@ -103,7 +104,7 @@ const ProductsCarousel = () =>{
   <div className="row">
             <div className="col-md-4 mb-3">
                 <div className="card">
-                    <img className="d-block" width="100%" src="/course/course-image-1.png" alt="Everything" />
+                    <Image className="d-block" width={262} height={149} src="/course/course-image-1.png" alt="Everything" />
                     <div className="card-body">
                         <p className={`${styles.aboutCourse}`}>Career Advancing Diplom program</p>
                         <h4 className="card-title">Professional Diploma in Accounts & e-Taxation</h4>
@@ -117,7 +118,7 @@ const ProductsCarousel = () =>{
             </div>
             <div className="col-md-4 mb-3">
                 <div className="card">
-                    <img className="d-block" width="100%" src="/course/course-image-2.png" alt="Everything" />
+                    <Image className="d-block" width={262} height={149} src="/course/course-image-2.png" alt="Everything" />
                     <div className="card-body">
                         <p className={`${styles.aboutCourse}`}>Career Advancing Diplom program</p>
                         <h4 className="card-title">Professional Diploma in Accounts & e-Taxation</h4>
@@ -131,7 +132,7 @@ const ProductsCarousel = () =>{
             </div>
             <div className="col-md-4 mb-3">
                 <div className="card">
-                    <img className="d-block" width="100%" src="/course/course-image-3.png" alt="Everything" />
+                    <Image className="d-block" width={262} height={149} src="/course/course-image-3.png" alt="Everything" />
                     <div className="card-body">
                         <p className={`${styles.aboutCourse}`}>Career Advancing Diplom program</p>
                         <h4 className="card-title">Professional Diploma in Accounts & e-Taxation</h4>

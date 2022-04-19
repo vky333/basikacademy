@@ -12,8 +12,9 @@ export const BasikPrideSection = () => {
                     <div className="row">
                         <div className="col-sm-8">
                             <div className="heading-box">
-                                <h1>Basik's Pride</h1>
-                                <p>Every Student Matter	to us and Basik's Pride does is about opening doors to students, graduates</p>
+                                <h1>Basik Pride</h1>
+                                <p>Every Student Matter	to us and Basik Pride does
+                                     is about opening doors to students, graduates</p>
                             </div>
                         </div>
                     </div>
@@ -25,9 +26,9 @@ export const BasikPrideSection = () => {
                         <div className={`${styles.basikMain}`}>
                             <ul>
                                 <li className={`${styles.imgCont}`}>
-                                    <img src="/basiks-pride-accenture.png" alt="accenture"/>
-                                    <img src="/basiks-pride-airtel.png" alt="accenture"/>
-                                    <img src="/basiks-pride-jio.png" alt="accenture"/>
+                                    <Image src="/basiks-pride-accenture.png" alt="accenture" width={280} height={285}/>
+                                    <Image src="/basiks-pride-airtel.png" alt="accenture" width={280} height={285}/>
+                                    <Image src="/basiks-pride-jio.png" alt="accenture" width={280} height={285}/>
                                 </li>
                                 <li>
                                     <div className={`${styles.prideNumber}`}>
@@ -56,7 +57,7 @@ export const BasikPrideSection = () => {
                                      accounting within on year from basik and my family
                                       are really happy that am earning after 12th without
                                        spending lot of money</h5>
-                                <img className="d-block" src = "/review-image-desktop.png" alt = "studentImage" />
+                                <Image className="d-block" src = "/review-image-desktop.png" alt = "studentImage" width={98} height={98} />
                                 <p>Anushika sharma</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
@@ -66,7 +67,7 @@ export const BasikPrideSection = () => {
                                      accounting within on year from basik and my family
                                       are really happy that am earning after 12th without
                                        spending lot of money</h5>
-                                <img className="d-block" src = "/review-image-desktop.png" alt = "studentImage" />
+                                       <Image className="d-block" src = "/review-image-desktop.png" alt = "studentImage" width={98} height={98} />
                                 <p>Anushika sharma</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
@@ -76,7 +77,7 @@ export const BasikPrideSection = () => {
                                      accounting within on year from basik and my family
                                       are really happy that am earning after 12th without
                                        spending lot of money</h5>
-                                <img className="d-block" src = "/review-image-desktop.png" alt = "studentImage" />
+                                       <Image className="d-block" src = "/review-image-desktop.png" alt = "studentImage" width={98} height={98} />
                                 <p>Anushika sharma</p>
                                 </Carousel.Caption>
                             </Carousel.Item>

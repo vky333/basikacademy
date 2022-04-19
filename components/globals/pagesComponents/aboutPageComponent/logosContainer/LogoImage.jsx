@@ -1,8 +1,8 @@
 import React from "react";
-
+import Image from 'next/image';
 export const LogoImage = (props) =>{
     return(
-        <img src={props.logoCard.logoImg} alt="logo"/>
+        <Image width={130} height={60} src={props.logoCard.logoImg} alt="logo"/>
     )
 }
 

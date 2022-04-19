@@ -1,6 +1,7 @@
 import React from 'react';
-import styles from '../acordianSection03/Accordian.module.css'
-import {Button,section,Accordion} from 'react-bootstrap'
+import styles from '../acordianSection03/Accordian.module.css';
+import {Button,section,Accordion} from 'react-bootstrap';
+import Image from 'next/image';
 
 export const AccordianSection = () => {
     return (
@@ -86,7 +87,7 @@ export const AccordianSection = () => {
                             
                         </div>
                         <div className={`${styles.rghtBox}`}>
-                            <img src='/aboutPage/image-02.png' alt=''/>
+                            <Image width={336} height={671} src='/aboutPage/image-02.png' alt='mentor'/>
                         </div>
                     </div>
                 </div>

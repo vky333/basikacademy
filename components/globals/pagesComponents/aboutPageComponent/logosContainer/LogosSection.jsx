@@ -63,7 +63,7 @@ export const LogosSection = () => {
                         <h1>Companies where the skills are in demand</h1>
                         <ul className={`${styles.logList}`}>
                             {universityLogos.map(logosvar =>
-                                <li><LogoImage key={logosvar.id} logoCard={logosvar} /> </li>
+                                <li key={logosvar.id}><LogoImage logoCard={logosvar} /> </li>
                             )};                            
                         </ul>           
                     </div>

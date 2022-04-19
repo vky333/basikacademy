@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Footer = () =>{
     return(
@@ -8,7 +9,7 @@ const Footer = () =>{
         <div className="row">
             <div className="col-sm-2">
                 <div className="logo-footer">
-                    <img src="/basikLogo.png"/>
+                    <Image src="/basikLogo.png" alt='logo' width="154" height="91"/>
                 </div>
                 <div className="social-footer">
                     <a href="#">

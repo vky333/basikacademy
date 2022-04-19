@@ -61,8 +61,8 @@ const Banner = () => {
         <div className={`${styles.bannerContainer}`}>
             <Carousel fade>
                 {bannerContDynamic.map(bannercard => 
-                    <Carousel.Item>
-                        <BannerTextImg key ={bannercard.id} BannerTextCard={bannercard}/>
+                    <Carousel.Item key={bannercard.id}>
+                        <BannerTextImg BannerTextCard={bannercard}/>
                     </Carousel.Item>
                 )}              
             </Carousel>

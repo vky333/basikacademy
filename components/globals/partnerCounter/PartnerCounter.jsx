@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 
 const PartnerCounter = () =>{
@@ -46,10 +47,10 @@ const PartnerCounter = () =>{
                     <div className="col-sm-8">
                         <div className="partners-logo text-end">
                             <div className="partner-img">
-                                <img src="/logos/logo-ASSOCHAM.png" width="100%" alt="ASSOCHAM"/>
+                                <Image width={150} height={60} src="/logos/logo-ASSOCHAM.png" alt="ASSOCHAM"/>
                             </div>
                             <div className="partner-img">
-                                <img src="/logos/logo-FICCI.png" width="100%" alt="FICCI"/>
+                                <Image width={150} height={60} src="/logos/logo-FICCI.png" alt="FICCI"/>
                             </div>
                         </div>
                     </div>
@@ -61,16 +62,16 @@ const PartnerCounter = () =>{
                     <div className="col-sm-8">
                         <div className="partners-logo text-end">
                             <div className="partner-img">
-                                <img src="/logos/logo-TOI.png" width="100%" alt="TOI"/>
+                                <Image width={180} height={40}  src="/logos/logo-TOI.png" alt="TOI"/>
                             </div>
                             <div className="partner-img">
-                                <img src="/logos/logo-livemint.png" width="100%" alt="livemint"/>
+                                <Image width={180} height={40}  src="/logos/logo-livemint.png" alt="livemint"/>
                             </div>
                             <div className="partner-img">
-                                <img src="/logos/logo-firstpost.png" width="100%" alt="firstpost"/>
+                                <Image width={180} height={40}  src="/logos/logo-firstpost.png" alt="firstpost"/>
                             </div>
                             <div className="partner-img">
-                                <img src="/logos/logo-yourstory.png" width="100%" alt="yourstory"/>
+                                <Image width={180} height={40} src="/logos/logo-yourstory.png" alt="yourstory"/>
                             </div>
                         </div>
                     </div>

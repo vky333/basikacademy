@@ -23,7 +23,7 @@ export const BannerDetailContent = () =>{
                         </div>
                         <div>
                             <span className={`${styles.progressBar}`}></span>
-                            <p>Culminating academic and intellectual experience for students make them 'feild-ready'. </p>
+                            <p>Culminating academic and intellectual experience for students make them . </p>
                         </div>
             </div>
         </>
