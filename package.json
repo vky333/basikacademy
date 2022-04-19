@@ -2,7 +2,6 @@
     "name": "basikbuild",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://{basikacademy}.github.io",
     "scripts": {
         "dev": "next dev",
         "build": "next build && next export",
