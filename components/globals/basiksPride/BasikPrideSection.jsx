@@ -13,8 +13,8 @@ export const BasikPrideSection = () => {
                         <div className="col-sm-8">
                             <div className="heading-box">
                                 <h1>Basik Pride</h1>
-                                <p>Every Student Matter	to us and Basik Pride does
-                                     is about opening doors to students, graduates</p>
+                                <h4>Every Student Matter	to us and Basik Pride does
+                                     is about opening doors to students, graduates</h4>
                             </div>
                         </div>
                     </div>
@@ -33,11 +33,11 @@ export const BasikPrideSection = () => {
                                 <li>
                                     <div className={`${styles.prideNumber}`}>
                                         <h1>20,0000</h1>
-                                        <span>Registered</span>
+                                        <h5>Registered</h5>
                                     </div>
                                     <div className={`${styles.prideNumber}`}>
                                         <h1>5000</h1>
-                                        <span>Placed</span>
+                                        <h5>Placed</h5>
                                     </div>
                                 </li>
                             </ul>

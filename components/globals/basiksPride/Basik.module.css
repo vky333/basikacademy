@@ -46,8 +46,8 @@
     margin-bottom: 0px;
 }
 
-.prideNumber span {
-    font-size: 1.6rem;
+.prideNumber h5 {
+    font-weight: 500;
 }
 
 @media(max-width:992px) {

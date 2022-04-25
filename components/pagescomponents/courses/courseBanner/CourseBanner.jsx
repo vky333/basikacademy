@@ -1,9 +1,9 @@
 import React from 'react';
-import styles from './AboutBanner.module.css';
+import styles from './CourseBanner.module.css';
 import {Button} from 'react-bootstrap';
 import Image from 'next/image'
 
-export const AboutBanner = () =>{
+export const CourseBanner = () =>{
     return(
         <>
         <section className={`${styles.staticBanner}`}>
@@ -31,4 +31,4 @@ export const AboutBanner = () =>{
     )
 }
 
-export default AboutBanner;
+export default CourseBanner;

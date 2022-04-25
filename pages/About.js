@@ -1,24 +1,25 @@
-import React from 'react';
+import React from "react";
 import Header from '../components/globals/header/Header';
-import AboutBanner from '../components/globals/pagesComponents/aboutPageComponent/aboutBanner/AboutBanner'
-import Section01 from '../components/globals/pagesComponents/aboutPageComponent/contentSection01/Section01';
-import GetCourseSection from '../components/globals/pagesComponents/aboutPageComponent/contentSection02/GetCourseSection';
+import CourseBanner from '../components/pagescomponents/courses/courseBanner/CourseBanner';
+import EnrollSection from '../components/pagescomponents/courses/contentSection04/EnrollSection';
 import Footer from '../components/globals/footer/Footer';
-import LogosSection from '../components/globals/pagesComponents/aboutPageComponent/logosContainer/LogosSection';
-import AccordianSection from '../components/globals/pagesComponents/aboutPageComponent/acordianSection03/AccordianSection';
-import EnrollSection from '../components/globals/pagesComponents/aboutPageComponent/contentSection04/EnrollSection';
-import StudentsReviewComents from '../components/globals/pagesComponents/aboutPageComponent/studentsReviewComents/StudentsReviewComents'
+import Section02 from '../components/pagescomponents/about/Section02';
+import Section03 from '../components/pagescomponents/about/Section03';
+import Section04 from '../components/pagescomponents/about/Section04';
+import Section05 from '../components/pagescomponents/about/section05/Section05';
 
-export default function About(){       
+
+
+
+export default function about(){       
     return(
         <>
             <Header/>
-            <AboutBanner/>
-            <Section01/>
-            <GetCourseSection/> 
-            <AccordianSection/>
-            <LogosSection/>
-            <StudentsReviewComents/>
+            <CourseBanner/>
+            <Section02/> 
+            <Section03/>
+            <Section04/>
+            <Section05/>
             <EnrollSection/>
             <Footer/>
         </>

@@ -25,8 +25,8 @@ export const StudentsReviewComents = () => {
                                                     Voluptatem iusto laudantium, ab a ratione optio molestias 
                                                     distinctio nemo quis pariatur, ad incidunt. Lorem ipsum dolor,
                                                     sit amet consectetur adipisicing elit.</p>
-                                                    <h4>Megha</h4>
-                                                <h5>From Delhi</h5>
+                                                    <h5>Megha</h5>
+                                                <p>From Delhi</p>
                                         </div>
                                         <div className={`${styles.studentInfo01}`}>
                                         <Image
@@ -39,8 +39,8 @@ export const StudentsReviewComents = () => {
                                                     Voluptatem iusto laudantium, ab a ratione optio molestias 
                                                     distinctio nemo quis pariatur, ad incidunt. Lorem ipsum dolor,
                                                     sit amet consectetur adipisicing elit.</p>
-                                                    <h4>Naina Singh</h4>
-                                                <h5>From Delhi</h5>
+                                                    <h5>Vikash</h5>
+                                                <p>From Delhi</p>
                                         </div>
                                     
                                        
@@ -58,8 +58,8 @@ export const StudentsReviewComents = () => {
                                                     Voluptatem iusto laudantium, ab a ratione optio molestias 
                                                     distinctio nemo quis pariatur, ad incidunt. Lorem ipsum dolor,
                                                     sit amet consectetur adipisicing elit.</p>
-                                                    <h4>Megha</h4>
-                                                <h5>From Delhi</h5>
+                                                    <h5>Megha</h5>
+                                                <p>From Delhi</p>
                                         </div>
                                         <div className={`${styles.studentInfo01}`}>
                                         <Image
@@ -72,8 +72,8 @@ export const StudentsReviewComents = () => {
                                                     Voluptatem iusto laudantium, ab a ratione optio molestias 
                                                     distinctio nemo quis pariatur, ad incidunt. Lorem ipsum dolor,
                                                     sit amet consectetur adipisicing elit.</p>
-                                                    <h4>Naina Singh</h4>
-                                                <h5>From Delhi</h5>
+                                                    <h5>Vikash</h5>
+                                                <p>From Delhi</p>
                                         </div>
                                     </Carousel.Item>
                                     <Carousel.Item>
@@ -88,8 +88,8 @@ export const StudentsReviewComents = () => {
                                                     Voluptatem iusto laudantium, ab a ratione optio molestias 
                                                     distinctio nemo quis pariatur, ad incidunt. Lorem ipsum dolor,
                                                     sit amet consectetur adipisicing elit.</p>
-                                                    <h4>Megha</h4>
-                                                <h5>From Delhi</h5>
+                                                    <h5>Megha</h5>
+                                                <p>From Delhi</p>
                                         </div>
                                         <div className={`${styles.studentInfo01}`}>
                                         <Image
@@ -102,8 +102,8 @@ export const StudentsReviewComents = () => {
                                                     Voluptatem iusto laudantium, ab a ratione optio molestias 
                                                     distinctio nemo quis pariatur, ad incidunt. Lorem ipsum dolor,
                                                     sit amet consectetur adipisicing elit.</p>
-                                                    <h4>Naina Singh</h4>
-                                                <h5>From Delhi</h5>
+                                                    <h5>Vikash</h5>
+                                                <p>From Delhi</p>
                                         </div>
                                     </Carousel.Item>
                             </Carousel>

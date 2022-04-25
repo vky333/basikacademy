@@ -12,7 +12,7 @@
     bottom: 10rem;
     left: 10%;
     text-align: left;
-    padding: 2rem 0;
+    padding: 2rem 0 0 0;
     width: 60%;
 }
 
@@ -46,11 +46,10 @@
 }
 
 .bannerTextCont h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: bold;
     width: 75%;
     color: #FFF;
-    line-height: 60px;
 }
 
 .bannerTextCont h4 {
@@ -83,33 +82,53 @@
     width: 20%;
     padding: 0 10px;
     color: white;
-    height: 6rem;
 }
 
-.progressBarContainer div span.progressBar {
+.progressBarContainer div .progressBar {
     width: 100%;
     height: 2px;
     background-color: #fff;
     display: block;
+    position: relative;
 }
 
-.progressBarContainer div span.progressBar .inProgress {
+.progressBarContainer div .progressBar .inProgress {
     background-color: #1970fa;
     width: 0%;
     height: 0px;
     padding: 0;
 }
 
+.progressBarContainer .progAnimation {
+    width: 100%;
+    height: 2px;
+    background: red;
+    position: absolute;
+    left: 0;
+    animation: mymove 5s;
+}
+
+@keyframes mymove {
+    from {
+        width: 0px;
+    }
+    to {
+        width: 100%;
+    }
+}
+
 .progressBarContainer p {
     font-size: 12px;
     margin-top: 10px;
-    line-height: 16px;
+    line-height: normal;
     color: #c9c4c4;
+    min-height: 3rem;
+    margin-bottom: 1rem;
 }
 
 .bannerContainer button[data-bs-target] {
     width: 20%;
-    height: 8rem;
+    height: 6rem;
 }
 
 @media(max-width:1300px) {

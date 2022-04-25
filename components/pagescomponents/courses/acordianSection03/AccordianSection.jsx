@@ -16,10 +16,10 @@ export const AccordianSection = () => {
                                 <Button variant="primary" size="lg">See Curriculum</Button>
                                 <Button variant="outline-primary" size="lg">Download Brochure</Button>
                             </div>
-                            <div className={`${styles.hedingAcordian}`}>
+                            <h5 className={`${styles.hedingAcordian}`}>
                                 <span>B.Voc(Accounting & Taxation)</span>
                                 <span>Expand alll sections</span>
-                            </div>
+                            </h5>
                             <div className='mt-4'>
                             <Accordion defaultActiveKey={['0']}>
                                 <Accordion.Item eventKey="0">

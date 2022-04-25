@@ -1,6 +1,6 @@
 import React from 'react'
 import {section} from 'react-bootstrap';
-import TalkComponentGlobal from '../../../talkExpertLink/TalkComponentGlobal';
+import TalkComponentGlobal from '../../../globals/talkExpertLink/TalkComponentGlobal';
 
 export const EnrollSection = () => {
   return (

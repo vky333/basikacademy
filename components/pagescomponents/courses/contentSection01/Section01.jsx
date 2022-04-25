@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Section01.module.css';
 import {section,Button} from 'react-bootstrap';
-import HeadingContent from '../../../headingContent/HeadingContent'
+import HeadingContent from '../../../globals/headingContent/HeadingContent'
 
 export const Section01 = () =>{
     return(

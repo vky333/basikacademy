@@ -18,7 +18,7 @@ const Blog = () =>{
                                         <Image width={323} height={298} src="/blog/blog-1.png" alt="Blog" />
                                     </div>
                                     <div className="blog-content">
-                                        <span>Jobs</span>
+                                        <h4>Jobs</h4>
                                         <h5>11 Best Job Oriented Short Term Courses Which are In-Demand</h5>
                                     </div>
                                 </div>
@@ -29,7 +29,7 @@ const Blog = () =>{
                                         <Image width={323} height={380} src="/blog/blog-2.png" alt="Blog" />
                                     </div>
                                     <div className="blog-content">
-                                        <span>Career Advice</span>
+                                        <h4>Career Advice</h4>
                                         <h5>How to Choose a Career After 12th? </h5>
                                     </div>
                                 </div>
@@ -40,7 +40,7 @@ const Blog = () =>{
                                         <Image width={323} height={175} src="/blog/blog-3.png" alt="Blog" />
                                     </div>
                                     <div className="blog-content">
-                                        <span>Did you know?</span>
+                                        <h4>Did you know?</h4>
                                         <h5>Trending Shot Term Courses in 2022</h5>
                                     </div>
                                 </div>
@@ -49,7 +49,7 @@ const Blog = () =>{
                                         <Image width={323} height={373} src="/blog/blog-4.png" alt="Blog" />
                                     </div>
                                     <div className="blog-content">
-                                        <span>career</span>
+                                        <h4>career</h4>
                                         <h5>Trending Shot Term Courses in 2022</h5>
                                     </div>
                                 </div>

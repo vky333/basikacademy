@@ -1,0 +1,143 @@
+/**** Section02 Start****/
+
+.aboutsection02 p {
+    margin-bottom: 0.5rem;
+}
+
+
+/**** Section02 End****/
+
+
+/**** Section03 Start****/
+
+.aboutsection03 {
+    padding: 4rem 0 4rem 0;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    background-color: #125369;
+}
+
+.aboutsection03 h1 {
+    color: #fff;
+}
+
+.aboutsection03 ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.aboutsection03 ul li {
+    width: 45%;
+    list-style: disc;
+    color: #FFF;
+    font-weight: 500;
+    margin: 1% 2%;
+}
+
+.aboutsection03 ul li:last-child {
+    margin-bottom: 0;
+}
+
+
+/**** Section03 End****/
+
+
+/**** Section04 Start****/
+
+.aboutSection04 {
+    width: 100%;
+    height: 100%;
+}
+
+.aboutSection04 .lftImg {
+    width: 45%;
+    margin-right: 10%;
+    float: left;
+}
+
+.aboutSection04 .rightContent {
+    width: 40%;
+    float: left;
+}
+
+.aboutSection04 .rightContent h4 {
+    font-weight: bold;
+}
+
+.aboutSection04 .rightContent h4 span {
+    color: #27087e;
+}
+
+.aboutSection04 ul li {
+    width: 100%;
+    list-style: square;
+    font-weight: 500;
+    margin-left: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.aboutSection04 ul li:last-child {
+    margin-bottom: 0;
+}
+
+
+/**** Section04 End****/
+
+
+/**** About Section05 Start****/
+
+.aboutSection05 {
+    width: 100%;
+    height: 100%;
+    background-color: #f0f8ff;
+}
+
+.aboutSection05 .CardGlobal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.aboutSection05 .CardGlobal h4 {
+    color: #0d6efd;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+.aboutSection05 .CardGlobal h5 {
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.aboutSection05 .cardBX {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+
+/**** About Section05 End****/
+
+@media(max-width:768px) {
+    .aboutsection03 ul li {
+        width: 100%;
+        margin: 1% 0% 1% 4%;
+    }
+    .aboutSection04 .lftImg {
+        display: none;
+    }
+    .aboutSection04 .rightContent {
+        width: 100%;
+    }
+    .aboutSection05 .cardBX {
+        justify-content: space-around;
+    }
+    .aboutSection05 .CardGlobal {
+        margin-bottom: 2rem;
+    }
+}

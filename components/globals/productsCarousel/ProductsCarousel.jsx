@@ -15,7 +15,7 @@ const ProductsCarousel = () =>{
                     <Image className="d-block" width={262} height={149} src="/course/course-image-1.png" alt="Everything" />
                     <div className="card-body">
                         <p className={`${styles.aboutCourse}`}>Career Advancing Diplom program</p>
-                        <h4 className="card-title">Professional Diploma in Accounts & e-Taxation</h4>
+                        <h5 className="card-title">Professional Diploma in Accounts & e-Taxation</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem perspiciatis nulla et quas quos officiis.</p>
                         <div className={`${styles.cardFooter}`}>
                             <span className={`${styles.aboutCourse}`}>1 Year | Online &amp; Offline</span>
@@ -29,7 +29,7 @@ const ProductsCarousel = () =>{
                     <Image className="d-block" width={262} height={149} src="/course/course-image-2.png" alt="Everything" />
                     <div className="card-body">
                         <p className={`${styles.aboutCourse}`}>Career Advancing Diplom program</p>
-                        <h4 className="card-title">Professional Diploma in Accounts & e-Taxation</h4>
+                        <h5 className="card-title">Professional Diploma in Accounts & e-Taxation</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem perspiciatis nulla et quas quos officiis.</p>
                         <div className={`${styles.cardFooter}`}>
                             <span className={`${styles.aboutCourse}`}>1 Year | Online &amp; Offline</span>
@@ -43,7 +43,7 @@ const ProductsCarousel = () =>{
                     <Image className="d-block" width={262} height={149} src="/course/course-image-3.png" alt="Everything" />
                     <div className="card-body">
                         <p className={`${styles.aboutCourse}`}>Career Advancing Diplom program</p>
-                        <h4 className="card-title">Professional Diploma in Accounts & e-Taxation</h4>
+                        <h5 className="card-title">Professional Diploma in Accounts & e-Taxation</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem perspiciatis nulla et quas quos officiis.</p>
                         <div className={`${styles.cardFooter}`}>
                             <span className={`${styles.aboutCourse}`}>1 Year | Online &amp; Offline</span>
@@ -61,7 +61,7 @@ const ProductsCarousel = () =>{
                     <Image className="d-block" width={262} height={149} src="/course/course-image-1.png" alt="Everything" />
                     <div className="card-body">
                         <p className={`${styles.aboutCourse}`}>Career Advancing Diplom program</p>
-                        <h4 className="card-title">Professional Diploma in Accounts & e-Taxation</h4>
+                        <h5 className="card-title">Professional Diploma in Accounts & e-Taxation</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem perspiciatis nulla et quas quos officiis.</p>
                         <div className={`${styles.cardFooter}`}>
                             <span className={`${styles.aboutCourse}`}>1 Year | Online &amp; Offline</span>
@@ -75,7 +75,7 @@ const ProductsCarousel = () =>{
                     <Image className="d-block" width={262} height={149} src="/course/course-image-2.png" alt="Everything" />
                     <div className="card-body">
                         <p className={`${styles.aboutCourse}`}>Career Advancing Diplom program</p>
-                        <h4 className="card-title">Professional Diploma in Accounts & e-Taxation</h4>
+                        <h5 className="card-title">Professional Diploma in Accounts & e-Taxation</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem perspiciatis nulla et quas quos officiis.</p>
                         <div className={`${styles.cardFooter}`}>
                             <span className={`${styles.aboutCourse}`}>1 Year | Online &amp; Offline</span>
@@ -89,7 +89,7 @@ const ProductsCarousel = () =>{
                     <Image className="d-block" width={262} height={149} src="/course/course-image-3.png" alt="Everything" />
                     <div className="card-body">
                         <p className={`${styles.aboutCourse}`}>Career Advancing Diplom program</p>
-                        <h4 className="card-title">Professional Diploma in Accounts & e-Taxation</h4>
+                        <h5 className="card-title">Professional Diploma in Accounts & e-Taxation</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem perspiciatis nulla et quas quos officiis.</p>
                         <div className={`${styles.cardFooter}`}>
                             <span className={`${styles.aboutCourse}`}>1 Year | Online &amp; Offline</span>
@@ -107,7 +107,7 @@ const ProductsCarousel = () =>{
                     <Image className="d-block" width={262} height={149} src="/course/course-image-1.png" alt="Everything" />
                     <div className="card-body">
                         <p className={`${styles.aboutCourse}`}>Career Advancing Diplom program</p>
-                        <h4 className="card-title">Professional Diploma in Accounts & e-Taxation</h4>
+                        <h5 className="card-title">Professional Diploma in Accounts & e-Taxation</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem perspiciatis nulla et quas quos officiis.</p>
                         <div className={`${styles.cardFooter}`}>
                             <span className={`${styles.aboutCourse}`}>1 Year | Online &amp; Offline</span>
@@ -121,7 +121,7 @@ const ProductsCarousel = () =>{
                     <Image className="d-block" width={262} height={149} src="/course/course-image-2.png" alt="Everything" />
                     <div className="card-body">
                         <p className={`${styles.aboutCourse}`}>Career Advancing Diplom program</p>
-                        <h4 className="card-title">Professional Diploma in Accounts & e-Taxation</h4>
+                        <h5 className="card-title">Professional Diploma in Accounts & e-Taxation</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem perspiciatis nulla et quas quos officiis.</p>
                         <div className={`${styles.cardFooter}`}>
                             <span className={`${styles.aboutCourse}`}>1 Year | Online &amp; Offline</span>
@@ -135,7 +135,7 @@ const ProductsCarousel = () =>{
                     <Image className="d-block" width={262} height={149} src="/course/course-image-3.png" alt="Everything" />
                     <div className="card-body">
                         <p className={`${styles.aboutCourse}`}>Career Advancing Diplom program</p>
-                        <h4 className="card-title">Professional Diploma in Accounts & e-Taxation</h4>
+                        <h5 className="card-title">Professional Diploma in Accounts & e-Taxation</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem perspiciatis nulla et quas quos officiis.</p>
                         <div className={`${styles.cardFooter}`}>
                             <span className={`${styles.aboutCourse}`}>1 Year | Online &amp; Offline</span>

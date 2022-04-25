@@ -1,7 +1,7 @@
 .acordanContaner {
-    padding: 4rem 0 0 0;
+    padding: 4rem 0 4rem 0;
     width: 100%;
-    height: 105vh;
+    height: 100%;
     overflow: hidden;
 }
 
@@ -12,7 +12,6 @@
 
 .hedingAcordian {
     margin-top: 1.5rem;
-    font-size: 18px;
 }
 
 .hedingAcordian span:nth-of-type(1) {
@@ -27,12 +26,22 @@
 }
 
 .rghtBox {
-    width: 30%;
+    width: auto;
     float: right;
+    max-height: 660px;
+    height: 100%;
+    padding-top: 5rem;
 }
 
 .rghtBox img {
     max-width: 100%;
+}
+
+@media(max-width:1200px) {
+    .btnBox button {
+        padding: 0.2rem 1rem;
+        margin-right: 1rem;
+    }
 }
 
 @media(max-width:992px) {
@@ -52,5 +61,20 @@
     }
     .hedingAcordian {
         margin-top: 1rem;
+    }
+}
+
+@media(max-width:600px) {
+    .hedingAcordian span:nth-of-type(1) {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media(max-width:400px) {
+    .btnBox button {
+        padding: 0.2rem 1rem;
+        margin-right: 0.5rem;
+        font-size: 13px;
     }
 }
