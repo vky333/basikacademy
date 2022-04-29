@@ -20,12 +20,12 @@ const Header = () => {
           <Button variant="primary" size="lg" className="exploreBtn exploreBtnDHide">Explore Skills</Button>
           <Navbar.Collapse id="responsive-navbar-nav">           
             <Nav className={`${styles.menuName} me-auto`}>
-              <Link href="/course"><a ClassName="menuNameActive">Courses</a></Link>
-              <Link href="/about"><a ClassName="menuNameActive">About</a></Link>
-              <Link href="/faculty"><a ClassName="menuNameActive">Faculty</a></Link>
-              <Link href="/career"><a ClassName="menuNameActive">Career</a></Link>
-              <Link href="/blog"><a ClassName="menuNameActive">Blog</a></Link>
-              <Link href="/contact"><a ClassName="menuNameActive">Contact</a></Link>              
+              <Link href="/course"><a>Courses</a></Link>
+              <Link href="/about"><a>About us</a></Link>
+              <Link href="/faculty"><a>Faculty</a></Link>
+              <Link href="/career"><a>Career</a></Link>
+              <Link href="/blog"><a>Blog</a></Link>
+              <Link href="/contact"><a>Contact us</a></Link>              
             </Nav>
             <Nav className={`${styles.navRight}`}>
               <Nav.Link href="#" className={`${styles.logBtn}`}>Log In</Nav.Link>              

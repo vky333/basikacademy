@@ -1,0 +1,118 @@
+.bannerSection {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+ul.pageNavigations {
+    margin: 0.5rem 0 1.5rem 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    width: 100%;
+}
+
+ul.pageNavigations li {
+    position: relative;
+    padding: 0.5rem 1rem;
+}
+
+ul.pageNavigations li:first-child {
+    padding-left: 0;
+}
+
+ul.pageNavigations li a {
+    color: #737373;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+ul.pageNavigations li a:hover {
+    color: blue;
+}
+
+ul.pageNavigations li:after {
+    background: url(/icons/rightAro.png);
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: -5px;
+    top: 6px;
+    bottom: 0;
+    margin: auto;
+}
+
+ul.pageNavigations li:last-child::after {
+    display: none;
+}
+
+.hdingSection h1 {
+    margin-bottom: 0.7rem;
+    font-weight: bold;
+}
+
+.hdingSection p {
+    color: #8d8d8d;
+    font-weight: 500;
+    margin-bottom: 2.5rem;
+}
+
+.Vocational02Section02 h3,
+.Vocational02Section02 h5 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+ul.courseDetail li {
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 0.5rem;
+}
+
+.Vocational02Section02 .articalContainerGlobal {
+    background-color: #f0fafd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.searchContainer {
+    margin-top: 5rem;
+}
+
+.allTagsCont {
+    background-color: #edeeff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.allTags {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.allTags li {
+    background-color: #fbfcff;
+    padding: 0.3rem 0.5rem;
+    margin: 0.5rem 0.1rem;
+    font-size: 14px;
+    font-weight: 500;
+    color: #a5a6a8;
+}
+
+.sechBox {
+    position: relative;
+}
+
+.sechBox input {
+    padding-left: 2.5rem;
+}
+
+.serchIcon {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    opacity: 0.6;
+}

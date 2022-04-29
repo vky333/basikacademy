@@ -1,0 +1,174 @@
+.BlogSearchSecion01 {
+    background-color: #edeeff;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.sechBox {
+    position: relative;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.sechBox input {
+    padding-left: 2.5rem;
+    background: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-bottom: 1rem;
+    text-align: center;
+    border-bottom: 3px solid #ced4da;
+}
+
+.sechBox .serchInput:focus {
+    background: none;
+    box-shadow: none;
+}
+
+.serchIcon {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    opacity: 0.8;
+}
+
+.tabContainer {
+    position: relative;
+    top: 2rem;
+    margin-bottom: 6rem;
+}
+
+.blogSearchTab {
+    position: absolute;
+    top: -5.5rem;
+}
+
+.blogSearchTab a {
+    background: #FFF !important;
+    margin: 0 0.5rem;
+    font-size: 14px;
+    color: #898684;
+    font-weight: 500;
+    border: #d9d9d9 1px solid !important;
+    border-radius: 0 !important;
+}
+
+.articalContainerGlobal {
+    background-color: #f0fafd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.popularCourseBox {
+    background-color: #f0fafd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.popularCourseBox h5 {
+    font-weight: bold;
+}
+
+.popularCourseBox ul li {
+    background: #FFF;
+    padding: 0.5rem;
+    margin: 0 0 0.5rem 0;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.viewAllBtn {
+    font-weight: bold;
+    color: #0d6efd;
+    font-size: 12px;
+    text-align: right;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+
+/***** Blog Search Card Start*****/
+
+.blogSearchCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.cardMg {
+    border-radius: 10px;
+}
+
+.cardContentBox {
+    margin-left: 1.5rem;
+    width: 100%;
+}
+
+.cardTitle01 {
+    font-size: 13px;
+    color: #757aed;
+    font-weight: 600;
+}
+
+.cardTitle02 {
+    font-size: 13px;
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.cardTitle02 span {
+    margin-right: 1rem;
+    color: #979797;
+}
+
+.readMButton {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.blogSearchCard h5 {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.blogSearchCard p {
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+    line-height: normal;
+}
+
+
+/***** Blog Search Card End*****/
+
+@media(max-width:992px) {
+    .blogSearchTab {
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+        width: 95%;
+        padding-bottom: 1rem;
+        left: 1rem;
+        right: 1rem;
+    }
+    .blogSearchTab a {
+        width: 40vh;
+        text-align: center;
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media(max-width:600px) {
+    .blogSearchCard {
+        flex-direction: column;
+    }
+    .cardContentBox {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+    .cardTitle02 {
+        justify-content: center;
+    }
+}

@@ -63,11 +63,19 @@
     .mainHeader {
         font-size: 14px;
         height: auto;
+        border-bottom: #333 1px solid;
     }
     .mhide {
         display: none;
     }
     .navRight {
         margin-left: 1rem;
+    }
+    .navRight a.logBtn {
+        padding-top: 0;
+    }
+    .menuName a:hover {
+        border-bottom: #0a58ca 0px solid;
+        color: #0a58ca;
     }
 }

@@ -58,15 +58,17 @@ const Banner = () => {
 
     return ( 
     <section className='banerSection'>  
-        <div className={`${styles.bannerContainer}`}>
-            <Carousel fade>
-                {bannerContDynamic.map(bannercard => 
-                    <Carousel.Item key={bannercard.id}>
-                        <BannerTextImg BannerTextCard={bannercard}/>
-                    </Carousel.Item>
-                )}              
-            </Carousel>
-            <BannerDetailContent/>           
+                   
+            <div className={`${styles.bannerContainer}`}>
+                <Carousel fade>
+                    {bannerContDynamic.map(bannercard => 
+                        <Carousel.Item key={bannercard.id}>
+                            <BannerTextImg BannerTextCard={bannercard}/>
+                        </Carousel.Item>
+                    )}              
+                </Carousel>
+                <BannerDetailContent/>           
+            
         </div>
     </section>
     )

@@ -1,13 +1,14 @@
 import React from 'react';
 import styles from '../blog/Blog.module.css';
-import {Card} from 'react-bootstrap'
+import {Card} from 'react-bootstrap';
+import Link from 'next/link';
 
 export const BlogCard = (props) => {
     const blogCardDetail=[
       {
         id:1,
         cardImage:"/blog/blog-7.png",
-        cardTitle:"Card Title1",
+        cardTitle:"Career Advice",
         teamHeading:"Team Basik",
         teamDate:"4 April, 2022",
         manHeading:"How to choose a career after 12th?"
@@ -15,7 +16,7 @@ export const BlogCard = (props) => {
       {
         id:2,
         cardImage:"/blog/blog-6.png",
-        cardTitle:"Card Title2",
+        cardTitle:"Vocational Training",
         teamHeading:"Team Basik",
         teamDate:"4 April, 2022",
         manHeading:"How to choose a career after 12th?"
@@ -23,7 +24,7 @@ export const BlogCard = (props) => {
       {
         id:3,
         cardImage:"/blog/blog-5.png",
-        cardTitle:"Card Title3",
+        cardTitle:"Jobs",
         teamHeading:"Team Basik",
         teamDate:"4 April, 2022",
         manHeading:"How to choose a career after 12th?"
@@ -31,7 +32,7 @@ export const BlogCard = (props) => {
       {
         id:4,
         cardImage:"/blog/blog-7.png",
-        cardTitle:"Card Title4",
+        cardTitle:"Career Advice",
         teamHeading:"Team Basik",
         teamDate:"4 April, 2022",
         manHeading:"How to choose a career after 12th?"
@@ -39,7 +40,7 @@ export const BlogCard = (props) => {
       {
         id:5,
         cardImage:"/blog/blog-6.png",
-        cardTitle:"Card Title5",
+        cardTitle:"Vocational Training",
         teamHeading:"Team Basik",
         teamDate:"4 April, 2022",
         manHeading:"How to choose a career after 12th?"
@@ -47,7 +48,7 @@ export const BlogCard = (props) => {
       {
         id:6,
         cardImage:"/blog/blog-5.png",
-        cardTitle:"Card Title6",
+        cardTitle:"Jobs",
         teamHeading:"Team Basik",
         teamDate:"4 April, 2022",
         manHeading:"How to choose a career after 12th?"
@@ -55,15 +56,15 @@ export const BlogCard = (props) => {
       {
         id:7,
         cardImage:"/blog/blog-7.png",
-        cardTitle:"Card Title7",
+        cardTitle:"Career Advice",
         teamHeading:"Team Basik",
         teamDate:"4 April, 2022",
         manHeading:"How to choose a career after 12th?"
       },
       {
         id:8,
-        cardImage:"/blog/blog-6.png",
-        cardTitle:"Card Title8",
+        cardImage:"/blog/blog-5.png",
+        cardTitle:"Jobs",
         teamHeading:"Team Basik",
         teamDate:"4 April, 2022",
         manHeading:"How to choose a career after 12th?"
@@ -71,7 +72,7 @@ export const BlogCard = (props) => {
       {
         id:9,
         cardImage:"/blog/blog-6.png",
-        cardTitle:"Card Title9",
+        cardTitle:"Vocational Training",
         teamHeading:"Team Basik",
         teamDate:"4 April, 2022",
         manHeading:"How to choose a career after 12th?"
@@ -80,19 +81,23 @@ export const BlogCard = (props) => {
   return (
     <>
     {blogCardDetail.map(blogCardV =>      
-    <div className='col-md-4 mb-5'>      
-      <div className={`${styles.cardBox} cardContainer`}>            
-            <Card key={blogCardV.id}>
+    <div className='col-md-4 mb-5' key={blogCardV.id}>      
+      <div className={`${styles.cardBox} cardContainer`}>  
+        <Link href='/vocationalTraining'> <a>  
+            <Card>              
                 <Card.Img variant="top" src={blogCardV.cardImage} />
                 <Card.Body>
-                  <Card.Title>{blogCardV.cardTitle}</Card.Title>
+                  <Card.Title className={`${styles.cardTitle}`}>{blogCardV.cardTitle}</Card.Title>
                   <div className={`${styles.teamsBox}`}>
                       <span>{blogCardV.teamHeading}</span>
                       <span>{blogCardV.teamDate}</span>
                   </div>
                   <h5>{blogCardV.manHeading}</h5>                
-              </Card.Body>              
-            </Card> 
+              </Card.Body>
+                            
+            </Card>   
+            </a>          
+            </Link>
       </div>
     </div>
     )}

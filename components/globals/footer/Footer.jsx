@@ -38,12 +38,12 @@ const Footer = () =>{
                 <div className="footerlist">
                     <h5 className="text-dark mb-3 fw-bold">Explore more</h5>
                     <ul>
-                        <li><a href="#">About Basik</a></li>
-                        <li><a href="#">LeaderShip Team</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Faculty</a></li>
                         <li><a href="#">Careers</a></li>
-                        <li><a href="#">Blogs</a></li>
-                        <li><a href="#">Testimonials</a></li>
-                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact us</a></li>
                     </ul>
                 </div>
             </div>
@@ -51,8 +51,8 @@ const Footer = () =>{
                 <div className="footerlist">
                     <h5 className="text-dark mb-3 fw-bold">Degree Courses</h5>
                     <ul>
-                        <li><a href="#">One Year Hotel Management Courses</a></li>
-                        <li><a href="#">One Year Food & Beverage Service Program</a></li>
+                        {/* <li><a href="#">One Year Hotel Management Courses</a></li>
+                        <li><a href="#">One Year Food & Beverage Service Program</a></li> */}
                         <li><a href="#">Two Years Accounting Degree Course</a></li>
                         <li><a href="#">Two Years Computer Science Program</a></li>
                         <li><a href="#">Three Years Electrical PG Diploma</a></li>
@@ -79,18 +79,18 @@ const Footer = () =>{
 <section className="copyright-sec">
 <div className="container">
     <div className="row">
-        <div className="col-sm-6">
+        <div className="col-sm-12 text-center">
             <div className="copyright">
                 <p className="m-0">&copy; Copyright Basik Academy | All Right Reserved 2022</p>
             </div>
         </div>
-        <div className="col-sm-6 text-end">
+        {/* <div className="col-sm-6 text-end">
             <div className="copyright">
                 <a href="#"> Terms & Condition </a> | 
                 <a href="#">Disclaimers</a> |
                 <a href="#">Privacy Policy</a>
             </div>
-        </div>
+        </div> */}
     </div>
 </div>
 </section>
