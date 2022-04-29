@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/dist/client/image';
+import Image from 'next/image';
 import styles from '../blog/Blog.module.css';
 
 export const Artical = () => {
@@ -40,7 +40,7 @@ export const Artical = () => {
   return (
     <>
      <div className={`${styles.articalContainer}`}>
-                        <h5>Most Viewed Articles</h5>
+      <h5>Most Viewed Articles</h5>
         {articalDetails.map(iteamArtical =>
           <div className={`${styles.articalInnerBox}`} key={iteamArtical.id}>                        
           <Image width={130} height={130} src={iteamArtical.Image} className={`${styles.articleImg}`} alt="article"/>

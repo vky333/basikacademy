@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../blogSearch/BlogSearch.module.css';
 import Image from 'next/image';
-import {sectopm} from 'react-bootstrap';
+import {section} from 'react-bootstrap';
 
 export const BlogSearchCard = () => {
 

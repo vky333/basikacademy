@@ -80,27 +80,25 @@ export const BlogCard = (props) => {
     ]
   return (
     <>
-    {blogCardDetail.map(blogCardV =>      
-    <div className='col-md-4 mb-5' key={blogCardV.id}>      
-      <div className={`${styles.cardBox} cardContainer`}>  
-        <Link href='/vocationalTraining'> <a>  
-            <Card>              
-                <Card.Img variant="top" src={blogCardV.cardImage} />
-                <Card.Body>
-                  <Card.Title className={`${styles.cardTitle}`}>{blogCardV.cardTitle}</Card.Title>
-                  <div className={`${styles.teamsBox}`}>
-                      <span>{blogCardV.teamHeading}</span>
-                      <span>{blogCardV.teamDate}</span>
-                  </div>
-                  <h5>{blogCardV.manHeading}</h5>                
-              </Card.Body>
-                            
-            </Card>   
-            </a>          
-            </Link>
+      {blogCardDetail.map(blogCardV =>      
+      <div className='col-md-4 mb-5' key={blogCardV.id}>      
+        <div className={`${styles.cardBox} cardContainer`}>  
+          <Link href='/vocationalTraining'>
+                <Card>              
+                    <Card.Img variant="top" src={blogCardV.cardImage} />
+                    <Card.Body>
+                      <Card.Title className={`${styles.cardTitle}`}>{blogCardV.cardTitle}</Card.Title>
+                      <div className={`${styles.teamsBox}`}>
+                          <span>{blogCardV.teamHeading}</span>
+                          <span>{blogCardV.teamDate}</span>
+                      </div>
+                      <h5>{blogCardV.manHeading}</h5>                
+                  </Card.Body> 
+                </Card>
+          </Link> 
+        </div>
       </div>
-    </div>
-    )}
+      )}
     </>
   )
 }

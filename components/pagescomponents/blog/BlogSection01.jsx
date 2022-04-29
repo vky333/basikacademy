@@ -4,7 +4,8 @@ import {Tabs, Tab, Nav,Row,Col} from 'react-bootstrap'
 import BlogCard from '../blog/BlogCard';
 import Image from 'next/image';
 import Artical from "../blog/Artical";
-import StayCard from "../blog/StayCard"
+import StayCard from "../blog/StayCard";
+import Link from 'next/link';
 
 export const BlogSection01 = () => {
   return (
@@ -36,48 +37,48 @@ export const BlogSection01 = () => {
                     <Tab.Content>
                         <Tab.Pane eventKey="tab1">
                             <div className={`${styles.tbCont} container`}>
-                                <div className='row'>                                    
-                                    <BlogCard />                                    
+                                <div className='row'>
+                                      <BlogCard />                  
                                 </div>
                             </div>                        
                         </Tab.Pane>
 
                         <Tab.Pane eventKey="tab2">
                         <div className={`${styles.tbCont} container`}>
-                                <div className='row'>                                    
-                                    <BlogCard />                                    
+                                <div className='row'>    
+                                    <BlogCard />                
                                 </div>
                             </div> 
                         </Tab.Pane>
 
                         <Tab.Pane eventKey="tab3">
                             <div className={`${styles.tbCont} container`}>
-                                <div className='row'>                                    
-                                    <BlogCard />                                    
+                                <div className='row'>        
+                                    <BlogCard />                
                                 </div>
                             </div> 
                         </Tab.Pane>
 
                         <Tab.Pane eventKey="tab4">
                             <div className={`${styles.tbCont} container`}>
-                                <div className='row'>                                    
-                                    <BlogCard />                                    
+                                <div className='row'>         
+                                    <BlogCard />                
                                 </div>
                             </div> 
                         </Tab.Pane>
 
                         <Tab.Pane eventKey="tab5">
                             <div className={`${styles.tbCont} container`}>
-                                <div className='row'>                                    
-                                    <BlogCard />                                    
+                                <div className='row'>         
+                                    <BlogCard />                
                                 </div>
                             </div> 
                         </Tab.Pane>
 
                         <Tab.Pane eventKey="tab6">
                             <div className={`${styles.tbCont} container`}>
-                                <div className='row'>                                    
-                                    <BlogCard />                                    
+                                <div className='row'>        
+                                    <BlogCard />              
                                 </div>
                             </div> 
                         </Tab.Pane>
@@ -86,11 +87,8 @@ export const BlogSection01 = () => {
                 </Tab.Container>
                 </div>
                 <div className='col-md-3'>
-                   
                         <Artical/>
-                                                                  
-                   
-                    <StayCard/>
+                        <StayCard/>                
                 </div>
             </div>
         </div>

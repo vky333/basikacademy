@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from './Header.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -20,12 +21,12 @@ const Header = () => {
           <Button variant="primary" size="lg" className="exploreBtn exploreBtnDHide">Explore Skills</Button>
           <Navbar.Collapse id="responsive-navbar-nav">           
             <Nav className={`${styles.menuName} me-auto`}>
-              <Link href="/course"><a>Courses</a></Link>
-              <Link href="/about"><a>About us</a></Link>
-              <Link href="/faculty"><a>Faculty</a></Link>
-              <Link href="/career"><a>Career</a></Link>
-              <Link href="/blog"><a>Blog</a></Link>
-              <Link href="/contact"><a>Contact us</a></Link>              
+              <Link href="/course">Courses</Link>
+              <Link href="/about">About us</Link>
+              <Link href="/faculty">Faculty</Link>
+              <Link href="/career">Career</Link>
+              <Link href="/blog">Blog</Link>
+              <Link href="/contact">Contact us</Link>              
             </Nav>
             <Nav className={`${styles.navRight}`}>
               <Nav.Link href="#" className={`${styles.logBtn}`}>Log In</Nav.Link>              
