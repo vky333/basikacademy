@@ -75,7 +75,7 @@ export const Section02 = () => {
                                    containing Lorem Ipsum passages, and more recently with desktop publishing
                                     software like Aldus PageMaker including versions of Lorem Ipsum.
                                 </p> 
-                                <h5>Further, it will add a few more benefits to VTPs as follows : </h5>
+                                {/* <h5>Further, it will add a few more benefits to VTPs as follows : </h5>
                                 <ul className={`${styles.courseDetail}`}>
                                     <li>Unique selling Point (USP)-thus Courses selling becomes simpler and easier.</li>
                                     <li>Approaching industries for placement tie-ups is eased out.</li>
@@ -85,7 +85,7 @@ export const Section02 = () => {
                                     <li>Approaching industries for placement tie-ups is eased out.</li>
                                     <li>VTP with university collaboration stands apart in a horcde of competition selling alike courses.</li>
                                     <li>Institue becomes a facilitator for vertical mobility 10+2 pass out.</li>
-                                </ul>                          
+                                </ul>                           */}
                         </section>                        
                    
                 

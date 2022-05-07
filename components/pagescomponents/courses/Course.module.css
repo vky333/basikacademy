@@ -1,0 +1,358 @@
+/************ Banner Start *******************/
+
+.staticBanner {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    color: #FFF;
+    position: relative;
+}
+
+.bannerImageContainer {
+    width: 100%;
+    text-align: center;
+}
+
+.staticBanner h1 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.staticBanner .textBannerBox {
+    width: 45%;
+    bottom: 7rem;
+    position: absolute;
+}
+
+.staticBanner .starCont {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.staticBanner .banerBtnCont {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.staticBanner .starCont img {
+    margin-top: -5px;
+    margin-right: 1.5rem;
+}
+
+.staticBanner .starCont span {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.staticBanner .banerBtnCont button {
+    margin-right: 2rem;
+    border-radius: 30px;
+    padding: 0.5rem 3rem;
+}
+
+.staticBanner .banerBtnCont button:last-child {
+    margin-right: 0;
+}
+
+
+/************ Banner End *******************/
+
+
+/************ About Course Section Start *******************/
+
+.sectionContent01 {
+    padding: 4rem 0;
+}
+
+.sectionContent01 .box01 {
+    padding-right: 5rem;
+}
+
+.sectionContent01 ul.keyBullets li {
+    list-style: disc;
+    display: flex;
+    font-weight: 600;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.8rem;
+}
+
+.sectionContent01 .viewCourseBtn {
+    padding: 0.5rem 2rem;
+}
+
+.sectionContent01 .keyText {
+    width: 100%;
+    margin-left: 1rem;
+    font-size: 14px;
+    line-height: normal;
+}
+
+.sectionContent01 .kyContainer {
+    background: #edeeff;
+    padding: 2rem;
+}
+
+
+/************ About Course Section End *******************/
+
+
+/************ Get Courses Section Start *******************/
+
+.getCourseCont {
+    padding: 4rem 0 4rem 0;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    background-color: #125369;
+}
+
+.getCourseCont h1 {
+    color: #fff;
+    font-family: arial;
+}
+
+.getCourseCont ul.getCoursList {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2.5rem;
+}
+
+.getCourseCont ul.getCoursList li {
+    color: #FFF;
+    width: 50%;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.getCourseCont ul.getCoursList li .textbox {
+    width: 100%;
+    margin-left: 1.5rem;
+    font-family: arial;
+}
+
+.getCourseCont ul.getCoursList li:last-child {
+    margin-bottom: 0;
+}
+
+.getCourseCont ul.getCoursList li span {
+    margin-left: 1rem;
+}
+
+.getCourseCont ul.getCoursList li img {
+    margin-right: 1rem;
+    max-width: 60%;
+    margin-top: 1.3rem;
+}
+
+
+/************ Get Courses Section End *******************/
+
+
+/************ Accourdion Section Start *******************/
+
+.acordanContaner {
+    padding: 4rem 0 4rem 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.acordanContaner3 {
+    /* background: url(/aboutPage/finaceExecutive.png); */
+    padding: 4rem 0 4rem 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.acordanContaner .btnBox button {
+    padding: 0.2rem 2rem;
+    margin-right: 3rem;
+}
+
+.acordanContaner .hedingAcordian {
+    margin-top: 1.5rem;
+}
+
+.acordanContaner .hedingAcordian span:nth-of-type(1) {
+    font-weight: bold;
+    margin-right: 1.5rem;
+}
+
+.acordanContaner .lftBox {
+    float: left;
+    width: 50%;
+    margin-right: 5%;
+}
+
+.acordanContaner .rghtBox {
+    width: auto;
+    float: right;
+    max-height: 660px;
+    height: 100%;
+    padding-top: 5rem;
+}
+
+.acordanContaner .rghtBox img {
+    max-width: 100%;
+}
+
+
+/************ Accourdion Section End *******************/
+
+.studentInfo01 {
+    text-align: center;
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+    margin-top: 4rem;
+}
+
+
+/************ Media Quwery Start *******************/
+
+@media(max-width:1366px) {
+    .staticBanner .textBannerBox {
+        width: 45%;
+    }
+}
+
+@media(max-width:1300px) {
+    .staticBanner .textBannerBox {
+        bottom: 5rem;
+    }
+}
+
+@media(max-width:1200px) {
+    .staticBanner .textBannerBox {
+        width: 80%;
+        bottom: 3rem;
+    }
+    .acordanContaner .btnBox button {
+        padding: 0.2rem 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media(max-width:1100px) {
+    .staticBanner .textBannerBox {
+        bottom: 1rem;
+    }
+}
+
+@media(max-width:992px) {
+    .staticBanner .staticBanner {
+        padding: 2rem 0;
+    }
+    .staticBanner .staticBanner h1 {
+        font-size: 1.3rem;
+    }
+    .sectionContent01 .box01 {
+        padding-right: 0rem;
+        margin-bottom: 3rem;
+    }
+    .sectionContent01 .box01 {
+        padding-right: 0rem;
+        margin-bottom: 3rem;
+    }
+    .acordanContaner .rghtBox {
+        display: none;
+    }
+    .acordanContaner .lftBox {
+        width: 100%;
+        margin-right: 0%;
+    }
+    .acordanContaner .btnBox button {
+        margin-right: 1rem;
+    }
+    .acordanContaner .hedingAcordian {
+        margin-top: 1rem;
+    }
+    .staticBanner h1 {
+        font-size: 1.7rem;
+    }
+    .staticBanner .banerBtnCont {
+        margin-top: 1rem;
+    }
+}
+
+@media(max-width:900px) {}
+
+@media(max-width:768px) {
+    .staticBanner .textBannerBox {
+        left: 5%;
+        bottom: 2rem;
+    }
+    .staticBanner h1 {
+        font-size: 1rem;
+    }
+    .staticBanner h3 {
+        font-size: 0.7rem;
+    }
+    .staticBanner .banerBtnCont {
+        margin-top: 0.5rem;
+    }
+    .staticBanner .starCont {
+        margin-bottom: 0.5rem;
+    }
+    .sectionContent01,
+    .acordanContaner {
+        padding: 2rem 0;
+    }
+    .studentInfo01 {
+        margin-top: 2rem;
+    }
+}
+
+@media(max-width:600px) {
+    .staticBanner .banerBtnCont button {
+        margin-right: 0.5rem;
+        border-radius: 30px;
+        padding: 0.2rem 1rem;
+        font-size: 15px;
+    }
+    .getCourseCont {
+        padding: 4rem 1rem 4rem 1rem;
+    }
+    .getCourseCont ul.getCoursList li {
+        font-size: 14px;
+        width: 100%;
+    }
+    .getCourseCont ul.getCoursList li img {
+        margin-right: 1rem;
+        max-width: 50px;
+    }
+    .acordanContaner .hedingAcordian span:nth-of-type(1) {
+        display: block;
+        width: 100%;
+    }
+    .staticBanner .textBannerBox {
+        left: 2%;
+        bottom: 1rem;
+        width: 90%;
+    }
+    .bannerImageContainer span {
+        min-height: 300px !important;
+    }
+}
+
+@media(max-width:500px) {}
+
+@media(max-width:400px) {
+    .acordanContaner .btnBox button {
+        padding: 0.2rem 1rem;
+        margin-right: 0.5rem;
+        font-size: 13px;
+    }
+}
+
+@media(max-width:320px) {}
+
+
+/************ Media Quwery End *******************/

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../studentsReviewComents/StudentsReview.module.css';
+import styles from '../Course.module.css'
 import {section,Carousel} from 'react-bootstrap';
 import Image from 'next/image';
 

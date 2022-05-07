@@ -2,8 +2,8 @@
 
 .mainHeader {
     font-size: 16px;
-    height: 92px;
-    background-color: #f8f9fa;
+    height: 83px;
+    background-color: #FFF;
 }
 
 .menuName a {
@@ -54,6 +54,25 @@
 
 .moblieNav {
     padding-right: 1rem;
+}
+
+.menuName .dropDonwItem {
+    margin: 0;
+    border-radius: 0;
+    font-weight: 400;
+    border-bottom: 1px solid #cccccc52;
+    padding: 1.3rem 1.5rem;
+}
+
+.menuName .dropDonwItem a {
+    font-weight: normal;
+    margin: 0;
+    font-size: 14px;
+}
+
+.menuName .dropDonwItem:hover,
+.menuName .dropDonwItem a:hover {
+    border: none;
 }
 
 

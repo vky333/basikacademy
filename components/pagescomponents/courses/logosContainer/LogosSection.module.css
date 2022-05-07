@@ -8,20 +8,20 @@
     text-align: center;
 }
 
-.logList {
+.logoContainers .logList {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.logList li {
+.logoContainers .logList li {
     width: 15%;
     background: #FFF;
     padding: 0.5rem;
     margin: 0.5rem;
 }
 
-.logList li img {
+.logoContainers .logList li img {
     max-width: 100%;
 }
