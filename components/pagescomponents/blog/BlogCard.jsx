@@ -83,7 +83,7 @@ export const BlogCard = (props) => {
       {blogCardDetail.map(blogCardV =>      
       <div className='col-md-4 mb-5' key={blogCardV.id}>      
         <div className={`${styles.cardBox} cardContainer`}>  
-          <Link href='/vocationalTraining'>
+          <Link href='/vocationalTraining' passHref>
                 <Card>              
                     <Card.Img variant="top" src={blogCardV.cardImage} />
                     <Card.Body>
