@@ -7,11 +7,39 @@ const Footer = () =>{
         <footer className="footerContainer">
     <div className="container">
         <div className="row">
-            <div className="col-sm-2">
+            <div className="col-sm-3">
                 <div className="logo-footer">
                     <Image src="/basikLogo.png" alt='logo' width="154" height="91"/>
+                </div>               
+            </div>
+            <div className="col-sm-3">
+                <div className="footerlist">
+                    <h5 className="text-dark mb-3 fw-bold">Explore more</h5>
+                    <ul>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="/about">About us</a></li>
+                        <li><a href="/faculty">Faculty</a></li>
+                        <li><a href="#">Placement</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="/contact">Contact us</a></li>
+                    </ul>
                 </div>
-                <div className="social-footer">
+            </div>
+            <div className="col-sm-4">
+                <div className="footerlist">
+                    <h5 className="text-dark mb-3 fw-bold">Courses</h5>
+                    <ul>  
+                    <li><a href="#">Short Term Professional Courses</a></li>
+                        <li><a href="#">Backend Accounts Executive</a></li>
+                        <li><a href="#">Backend Finance Executive</a></li>
+                        <li><a href="#">Real Time Accountant</a></li>
+                        <li><a href="#">Certified Finance Executive</a></li>                                          
+                        <li><a href="#">Two Years Accounting Degree Course</a></li>                        
+                    </ul>
+                </div>
+            </div>
+            <div className="col-sm-2">
+            <div className="social-footer">
                     <a href="#">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-facebook" viewBox="0 0 16 16">
                           <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
@@ -33,45 +61,7 @@ const Footer = () =>{
                         </svg>
                     </a>
                 </div>
-            </div>
-            <div className="col-sm-2">
-                <div className="footerlist">
-                    <h5 className="text-dark mb-3 fw-bold">Explore more</h5>
-                    <ul>
-                        <li><a href="#">Courses</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Faculty</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact us</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div className="col-sm-4">
-                <div className="footerlist">
-                    <h5 className="text-dark mb-3 fw-bold">Degree Courses</h5>
-                    <ul>
-                        {/* <li><a href="#">One Year Hotel Management Courses</a></li>
-                        <li><a href="#">One Year Food & Beverage Service Program</a></li> */}
-                        <li><a href="#">Two Years Accounting Degree Course</a></li>
-                        <li><a href="#">Two Years Computer Science Program</a></li>
-                        <li><a href="#">Three Years Electrical PG Diploma</a></li>
-                        <li><a href="#">Three Year Big Data Program</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div className="col-sm-4">
-                <div className="footerlist">
-                    <h5 className="text-dark mb-3 fw-bold">Short Terms Courses</h5>
-                    <ul>
-                        <li><a href="#">Six Month Tally Course</a></li>
-                        <li><a href="#">Three Month MS-Office Program</a></li>
-                        <li><a href="#">Two Month Cooking Course For Housewife</a></li>
-                        <li><a href="#">Three Month Banking Program</a></li>
-                        <li><a href="#">Testimonials</a></li>
-                        <li><a href="#">Resources</a></li>
-                    </ul>
-                </div>
+                
             </div>
         </div>
     </div>
@@ -83,14 +73,7 @@ const Footer = () =>{
             <div className="copyright">
                 <p className="m-0">&copy; Copyright Basik Academy | All Right Reserved 2022</p>
             </div>
-        </div>
-        {/* <div className="col-sm-6 text-end">
-            <div className="copyright">
-                <a href="#"> Terms & Condition </a> | 
-                <a href="#">Disclaimers</a> |
-                <a href="#">Privacy Policy</a>
-            </div>
-        </div> */}
+        </div>       
     </div>
 </div>
 </section>

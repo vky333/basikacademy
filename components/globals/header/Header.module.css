@@ -9,17 +9,20 @@
 .menuName a {
     font-weight: bold;
     color: #333!important;
-    margin: 0 1rem;
+    padding: 0 1rem;
     transition: 0.5s;
     border-radius: 5px;
     line-height: normal;
     height: 30px;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .menuName a:hover {
-    border-bottom: #0a58ca 2px solid;
+    /* border-bottom: #0a58ca 2px solid; */
+    color: #0a58ca !important;
+    transition: all 0.3s ease;
 }
 
 .navRight a.logBtn {
@@ -46,10 +49,6 @@
 .navRight a.exploreBtn:hover {
     background-color: #000;
     transition: 0.5s;
-}
-
-.menuName a:hover {
-    color: #1970fa important;
 }
 
 .moblieNav {

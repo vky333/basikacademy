@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Header.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import { IoIosArrowUp} from 'react-icons/io';
 import {
   Navbar,
   Container,
@@ -9,6 +10,7 @@ import {
   header,
   Button,
   NavDropdown,
+  NavItem,
 } from "react-bootstrap";
 
 const Header = () => {
@@ -43,45 +45,33 @@ const Header = () => {
               Explore Skills
             </Button>
             <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className={`${styles.menuName} me-auto`}>
-                <NavDropdown title="Courses" id="Pillow">
-                  <NavDropdown.Item className={`${styles.dropDonwItem}`}>
-                    <Link href="/shortTermProfessional">Short Term Professional Courses</Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item className={`${styles.dropDonwItem}`}>
-                    <Link href="/backend_Accounts_Executive">Backend Accounts Executive</Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item className={`${styles.dropDonwItem}`}>
-                    <Link href="/backend_finance_executive">Backend Finance Executive</Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item className={`${styles.dropDonwItem}`}>
-                    <Link href="/real_time_accountant">Real Time Accountant</Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item className={`${styles.dropDonwItem}`}>
-                    <Link href="/certified_finance_executive">Certified Finance Executive</Link>
-                  </NavDropdown.Item>
-                 
-                </NavDropdown>
-                <Link href="/about">About us</Link>
-                <Link href="/faculty">Faculty</Link>
-
-                <NavDropdown title="Placement" id="Pillow">
-                  <NavDropdown.Item
-                    href="/placement"
-                    className={`${styles.dropDonwItem}`}
-                  >
-                    <Link href="/Students">Students</Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
-                    href="#action"
-                    className={`${styles.dropDonwItem}`}
-                  >
-                    <Link href="/Counslor">Counslor</Link>
-                  </NavDropdown.Item>
-                </NavDropdown>
-                <Link href="/blog">Blog</Link>
-                <Link href="/contact">Contact us</Link>
+              <Nav className={`${styles.menuName} me-auto`}>                
+                <NavItem className='dropDownContainer'>
+                <Link href=""><a className='dropTab'>Courses</a></Link>
+                <Nav className='dropDownTab'>
+                <Link href="/shortTermProfessional"><a>Short Term Professional Courses</a></Link>
+                <Link href="/backend_Accounts_Executive"><a>Backend Accounts Executive</a></Link>
+                <Link href="/backend_finance_executive"><a>Backend Finance Executive</a></Link>
+                <Link href="/real_time_accountant"><a>Real Time Accountant</a></Link>
+                <Link href="/certified_finance_executive"><a>Certified Finance Executive</a></Link>
               </Nav>
+              </NavItem>
+              <NavItem>
+                <Link href="/about"><a>About us</a></Link></NavItem>
+                <NavItem>
+                <Link href="/faculty"><a>Faculty</a></Link></NavItem>
+                <NavItem className='dropDownContainer'>
+                <Link href=""><a className='dropTab'>Placement</a></Link>
+                <Nav className='dropDownTab'>
+                <Link href="/Students"><a>Students</a></Link>
+                <Link href="/consultant"><a>Consultant</a></Link>
+               
+              </Nav>
+              </NavItem>  
+                <NavItem><Link href="/blog"><a>Blog</a></Link></NavItem>
+                <NavItem><Link href="/contact"><a>Contact us</a></Link></NavItem>
+              </Nav>
+              
               <Nav className={`${styles.navRight}`}>
                 <Nav.Link href="#" className={`${styles.logBtn}`}>
                   Log In

@@ -21,7 +21,7 @@ h2.title_ourcourse {
 }
 
 .aboutCourse {
-    font-size: 14px;
+    font-size: 12px;
     color: #858585;
     margin-bottom: 6px;
     display: inline-block;
@@ -32,7 +32,7 @@ h2.title_ourcourse {
 }
 
 .cardFooter {
-    margin-top: 2rem;
+    margin-top: 0.5rem;
 }
 
 @media(max-width:768px) {}

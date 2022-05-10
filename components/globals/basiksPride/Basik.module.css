@@ -25,10 +25,9 @@
 }
 
 .basikMainfluid {
-    width: 85%;
+    width: 100%;
     height: 100%;
     margin-top: 1rem;
-    margin-bottom: 5rem;
 }
 
 .basikMain {
@@ -38,6 +37,7 @@
 
 .prideNumber {
     margin-bottom: 1rem;
+    padding-left: 5rem;
 }
 
 .prideNumber h1 {
@@ -48,6 +48,17 @@
 
 .prideNumber h5 {
     font-weight: 500;
+}
+
+.basikPrideSection .basikRegisterContinaer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.basikPrideSection h4.txt01 {
+    width: 50%;
 }
 
 @media(max-width:992px) {

@@ -15,47 +15,47 @@ const Blog = () =>{
                             <div className="col-sm-4">
                                 <div className="blog-card">
                                     <div className="blogImg">
-                                        <Image width={323} height={298} src="/blog/blog-1.png" alt="Blog" />
+                                        <Image width={323} height={298} src="/Home/blog/Blog-01.png" alt="Blog" />
                                     </div>
                                     <div className="blog-content">
-                                        <h4>Jobs</h4>
-                                        <h5>11 Best Job Oriented Short Term Courses Which are In-Demand</h5>
+                                        <h5>Jobs</h5>
+                                        <h4>11 Best Job Oriented Short Term Courses Which are In-Demand</h4>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-sm-4">
                                 <div className="blog-card">
                                     <div className="blogImg">
-                                        <Image width={323} height={380} src="/blog/blog-2.png" alt="Blog" />
+                                        <Image width={323} height={380} src="/Home/blog/Blog-02.png" alt="Blog" />
                                     </div>
                                     <div className="blog-content">
-                                        <h4>Career Advice</h4>
-                                        <h5>How to Choose a Career After 12th? </h5>
+                                        <h5>Career Advice</h5>
+                                        <h4>How to Choose a Career After 12th? </h4>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-sm-4">
                                 <div className="blog-card">
                                     <div className="blogImg">
-                                        <Image width={323} height={175} src="/blog/blog-3.png" alt="Blog" />
+                                        <Image width={323} height={175} src="/Home/blog/Blog-03.png" alt="Blog" />
                                     </div>
                                     <div className="blog-content">
-                                        <h4>Did you know?</h4>
-                                        <h5>Trending Shot Term Courses in 2022</h5>
+                                        <h5>Did you know?</h5>
+                                        <h4>Trending Shot Term Courses in 2022</h4>
                                     </div>
                                 </div>
                                 <div className="blog-card">
                                     <div className="blogImg">
-                                        <Image width={323} height={373} src="/blog/blog-4.png" alt="Blog" />
+                                        <Image width={323} height={373} src="/Home/blog/Blog-04.png" alt="Blog" />
                                     </div>
                                     <div className="blog-content">
-                                        <h4>career</h4>
-                                        <h5>Trending Shot Term Courses in 2022</h5>
+                                        <h5>career</h5>
+                                        <h4>Trending Shot Term Courses in 2022</h4>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-sm-12 text-center mt-3">
-                                <Button variant="outline-primary" size="lg" className="viewBorderBtn">Know More</Button>
+                                <Button variant="outline-primary" size="lg" className="viewBorderBtn">View All</Button>
                             </div>
                         </div>
                     </div>
