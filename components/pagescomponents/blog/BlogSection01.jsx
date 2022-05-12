@@ -86,8 +86,7 @@ export const BlogSection01 = () => {
                     </Tab.Content>  
                 </Tab.Container>
                 </div>
-                <div className='col-md-3'>
-                        <Artical/>
+                <div className='col-md-3'>                        
                         <StayCard/>                
                 </div>
             </div>

@@ -1,0 +1,44 @@
+.contactContainer {
+    background-color: #f0f8ff;
+    padding: 4rem 0;
+    font-family: arial;
+}
+
+.contactContainer01 {
+    background-color: #fff;
+    padding: 4rem 0;
+}
+
+.contactContainer01 svg {
+    margin-right: 1rem;
+    margin-top: 0.3rem;
+}
+
+.contLeft {
+    padding-right: 10rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.groupCont {
+    display: flex;
+    align-items: flex-start;
+    font-size: 17px;
+    margin-bottom: 1.5rem;
+}
+
+.formContainer {
+    background-color: rgb(255 255 255 / 100%);
+    padding: 2rem;
+    box-shadow: #ddd 0px 5px 10px;
+    color: #555;
+    font-size: 14px;
+}
+
+.contactBtn {
+    border-radius: 4px !important;
+    font-weight: normal !important;
+}

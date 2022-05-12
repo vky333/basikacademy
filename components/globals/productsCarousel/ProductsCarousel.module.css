@@ -35,4 +35,9 @@ h2.title_ourcourse {
     margin-top: 0.5rem;
 }
 
-@media(max-width:768px) {}
+@media(max-width:768px) {
+    .aboutcourseBtn {
+        display: block;
+        text-align: center;
+    }
+}

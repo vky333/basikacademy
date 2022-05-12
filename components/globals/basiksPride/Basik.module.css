@@ -98,4 +98,12 @@
         width: auto;
         margin-right: 3rem;
     }
+    .basikPrideSection .basikRegisterContinaer {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .basikPrideSection h4.txt01 {
+        width: 90%;
+        margin-bottom: 2rem;
+    }
 }

@@ -10,7 +10,7 @@ const ProductsCarousel = () => {
         <Carousel>
           <Carousel.Item>
             <div className="row">
-              <div className="col-md-4 mb-3">
+              <div className="col-sm-4 mb-3">
                 <div className="card">
                   <Image
                     className="d-block"
@@ -40,7 +40,7 @@ const ProductsCarousel = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 mb-3">
+              <div className="col-sm-4 mb-3 Carusla_mHide">
                 <div className="card">
                   <Image
                     className="d-block"
@@ -70,7 +70,7 @@ const ProductsCarousel = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 mb-3">
+              <div className="col-sm-4 mb-3 Carusla_mHide">
                 <div className="card">
                   <Image
                     className="d-block"
@@ -104,7 +104,7 @@ const ProductsCarousel = () => {
           </Carousel.Item>
           <Carousel.Item>
             <div className="row">
-              <div className="col-md-4 mb-3">
+              <div className="col-sm-4 mb-3 Carusla_mHide">
                 <div className="card">
                   <Image
                     className="d-block"
@@ -134,7 +134,7 @@ const ProductsCarousel = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 mb-3">
+              <div className="col-sm-4 mb-3">
                 <div className="card">
                   <Image
                     className="d-block"
@@ -164,7 +164,7 @@ const ProductsCarousel = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 mb-3">
+              <div className="col-sm-4 mb-3 Carusla_mHide">
                 <div className="card">
                   <Image
                     className="d-block"
@@ -198,7 +198,7 @@ const ProductsCarousel = () => {
           </Carousel.Item>
           <Carousel.Item>
             <div className="row">
-              <div className="col-md-4 mb-3">
+              <div className="col-sm-4 mb-3 Carusla_mHide">
                 <div className="card">
                   <Image
                     className="d-block"
@@ -228,7 +228,7 @@ const ProductsCarousel = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 mb-3">
+              <div className="col-sm-4 mb-3 Carusla_mHide">
                 <div className="card">
                   <Image
                     className="d-block"
@@ -258,7 +258,7 @@ const ProductsCarousel = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 mb-3">
+              <div className="col-sm-4 mb-3">
                 <div className="card">
                   <Image
                     className="d-block"

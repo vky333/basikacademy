@@ -30,7 +30,7 @@ export const BasikPrideSection = () => {
 
                     <Carousel.Item indicators="false">
                       <div className="row">
-                        <div className="col-md-4 mb-3">
+                        <div className="col-sm-4 mb-3">
                           <CandiateCard
                             Image="/Home/PlacementImage/candidate-01.png"
                             Name="Priyanka"
@@ -38,7 +38,7 @@ export const BasikPrideSection = () => {
                             Company="Edutra Consulting Services Pvt Ltd."
                           />
                         </div>
-                        <div className="col-md-4 mb-3">
+                        <div className="col-sm-4 mb-3 Carusla_mHide">
                           <CandiateCard
                             Image="/Home/PlacementImage/candidate-02.png"
                             Name="Sachin Kumar"
@@ -46,7 +46,7 @@ export const BasikPrideSection = () => {
                             Company="Blackboard Education & Research Foundation"
                           />
                         </div>
-                        <div className="col-md-4 mb-3">
+                        <div className="col-sm-4 mb-3 Carusla_mHide">
                           <CandiateCard
                             Image="/Home/PlacementImage/candidate-03.png"
                             Name="Nikhil Tiwari"
@@ -58,7 +58,7 @@ export const BasikPrideSection = () => {
                     </Carousel.Item>
                     <Carousel.Item indicators="false">
                       <div className="row">
-                        <div className="col-md-4 mb-3">
+                        <div className="col-sm-4 mb-3 Carusla_mHide">
                           <CandiateCard
                             Image="/Home/PlacementImage/candidate-01.png"
                             Name="Priyanka"
@@ -66,7 +66,7 @@ export const BasikPrideSection = () => {
                             Company="Edutra Consulting Services Pvt Ltd."
                           />
                         </div>
-                        <div className="col-md-4 mb-3">
+                        <div className="col-sm-4 mb-3">
                           <CandiateCard
                             Image="/Home/PlacementImage/candidate-02.png"
                             Name="Sachin Kumar"
@@ -74,7 +74,35 @@ export const BasikPrideSection = () => {
                             Company="Blackboard Education & Research Foundation"
                           />
                         </div>
-                        <div className="col-md-4 mb-3">
+                        <div className="col-sm-4 mb-3 Carusla_mHide">
+                          <CandiateCard
+                            Image="/Home/PlacementImage/candidate-03.png"
+                            Name="Nikhil Tiwari"
+                            Designation="Assistance Account Executive"
+                            Company="Edutra Consulting Services Pvt Ltd."
+                          />
+                        </div>
+                      </div>
+                    </Carousel.Item>
+                    <Carousel.Item indicators="false">
+                      <div className="row">
+                        <div className="col-sm-4 mb-3 Carusla_mHide">
+                          <CandiateCard
+                            Image="/Home/PlacementImage/candidate-01.png"
+                            Name="Priyanka"
+                            Designation="Account Executive"
+                            Company="Edutra Consulting Services Pvt Ltd."
+                          />
+                        </div>
+                        <div className="col-sm-4 mb-3 Carusla_mHide">
+                          <CandiateCard
+                            Image="/Home/PlacementImage/candidate-02.png"
+                            Name="Sachin Kumar"
+                            Designation="Assistance Account Manager"
+                            Company="Blackboard Education & Research Foundation"
+                          />
+                        </div>
+                        <div className="col-sm-4 mb-3 ">
                           <CandiateCard
                             Image="/Home/PlacementImage/candidate-03.png"
                             Name="Nikhil Tiwari"
@@ -89,7 +117,7 @@ export const BasikPrideSection = () => {
                   </Carousel>
                 </section>
               </div>
-              <div className="col-md-4 pt-5">
+              <div className="col-sm-4 pt-5">
                 <div className={`${styles.prideNumber}`}>
                   <h1>10,000</h1>
                   <h5>Trained</h5>

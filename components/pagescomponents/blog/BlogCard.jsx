@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../blog/Blog.module.css';
-import {Card} from 'react-bootstrap';
+import {Card,Button} from 'react-bootstrap';
 import Link from 'next/link';
 
 export const BlogCard = (props) => {
@@ -81,18 +81,22 @@ export const BlogCard = (props) => {
   return (
     <>
       {blogCardDetail.map(blogCardV =>      
-      <div className='col-md-4 mb-5' key={blogCardV.id}>      
+      <div className='col-md-12 mb-5' key={blogCardV.id}>      
         <div className={`${styles.cardBox} cardContainer`}>  
           <Link href='/vocationalTraining' passHref>
-                <Card>              
-                    <Card.Img variant="top" src={blogCardV.cardImage} />
-                    <Card.Body>
+                <Card className={`${styles.CustomCard}`}>              
+                    <Card.Img variant="top" src={blogCardV.cardImage}  className={`${styles.cardImg}`}/>
+                    <Card.Body>                    
                       <Card.Title className={`${styles.cardTitle}`}>{blogCardV.cardTitle}</Card.Title>
+                      <h5>{blogCardV.manHeading}</h5> 
                       <div className={`${styles.teamsBox}`}>
                           <span>{blogCardV.teamHeading}</span>
                           <span>{blogCardV.teamDate}</span>
                       </div>
-                      <h5>{blogCardV.manHeading}</h5>                
+                      <p>This is a longer card with supporting text below as a natural
+                        lead-in to additional content. This content is a little bit longer.</p>
+                        <Button variant="primary" type="submit" className={`${styles.readMoreBtn}`}>Read More</Button>
+                                     
                   </Card.Body> 
                 </Card>
           </Link> 
