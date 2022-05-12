@@ -1,7 +1,7 @@
 import React from "react";
 import HeadingContent from "../../globals/headingContent/HeadingContent";
 import styles from "../contact/Contact.module.css";
-import { FiPhoneCall } from "react-icons/Fi";
+import { FiPhoneCall } from "react-icons/fi";
 import { GoMail } from "react-icons/go";
 import { GoLocation } from "react-icons/go";
 import Custom_Form from './Custom_Form'
