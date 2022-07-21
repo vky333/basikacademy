@@ -8,22 +8,39 @@ export const Section05 = () => {
       <div className='container'>
         <div className='row'>
           <div className='col-md-12'>          
-            <h1 className='text-center'>Masterminds Behind</h1>
+            <h1 className='text-center'>Our Core Team</h1>
             <div className={`${styles.cardBX}`}>
             <CardGlobal
-            ExportImage="/m1.png"
-            Heading="Lorem Heading"
-            ExportProfile="CO-Founder, CEO"
+            ExportImage="/about/c1.png"
+            Heading="Mayank Gupta"
+            ExportProfile="Chief Executive Officer"
             />
              <CardGlobal
-            ExportImage="/m2.png"
-            Heading="Lorem Heading"
-            ExportProfile="CO-Founder, Head Product"
+            ExportImage="/about/c2.png"
+            Heading="Rohit Gupta"
+            ExportProfile="Chief Operating Officer"
             />
             <CardGlobal
-            ExportImage="/m3.png"
-            Heading="Lorem Heading"
-            ExportProfile="CO-Founder, Head Acedemics"
+            ExportImage="/about/c3.png"
+            Heading="Ashok Joshi"
+            ExportProfile="AVP-Skill Development"
+            />
+            
+            <CardGlobal
+            ExportImage="/about/Sarthak.jpg"
+            Heading="Sarthak Garg"
+            ExportProfile="Head-Digital Marketing "
+            />
+
+            <CardGlobal
+            ExportImage="/about/c4.png"
+            Heading="Vini Mathew"
+            ExportProfile="AVP HR"
+            />
+            <CardGlobal
+            ExportImage="/about/c5.png"
+            Heading="Kriti Bhalla"
+            ExportProfile="Sr. Manager- Sales & Operations"
             />
             </div>
             

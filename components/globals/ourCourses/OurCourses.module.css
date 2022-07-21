@@ -5,17 +5,19 @@
 }
 
 .hdingBox {
-    width: 70%;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: #ddd 2px solid;
 }
 
 .fulWidth {
     width: 100%;
+    padding-top: 1rem;
 }
 
-h2.title_ourcourse {
-    color: #1970fa;
-    margin: 0 0 1.5rem 0;
-    font-weight: bold;
+h1.title_ourcourse span {
+    color: #575de9;
 }
 
 .aboutcourseBtn {
@@ -37,7 +39,7 @@ h2.title_ourcourse {
 .aboutCourse {
     font-size: 14px;
     color: #858585;
-    margin-bottom: 6px;
+    margin-bottom: 0;
     display: inline-block;
 }
 
@@ -48,6 +50,122 @@ h2.title_ourcourse {
 .cardFooter {
     margin-top: 2rem;
 }
+
+.hdingsection {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.hdingsection ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hdingsection h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+
+.hdingsection ul li {
+    position: relative;
+    margin-right: 2rem;
+    padding-left: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hdingsection ul li span {
+    margin-left: 5px;
+}
+
+
+/***************** Product Card Start*************/
+
+.productsSection h2.title_ourcourse {
+    color: #1970fa;
+    margin: 0 0 1.5rem 0;
+    font-weight: bold;
+}
+
+ul.iconStarCont {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 1rem 0;
+}
+
+ul.iconStarCont li {
+    background: url(/course/star1.png);
+    margin-right: 0.5rem;
+    width: 13px;
+    height: 13px;
+    background-size: cover;
+}
+
+.ratingBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul.iconStarCont li:last-child {
+    background: url(/course/star2.png);
+    width: 13px;
+    height: 13px;
+    background-size: cover;
+}
+
+.productsSection .aboutcourseBtn {
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 8px;
+    background-color: #0d6efd;
+    padding: 0.5rem 1rem;
+    color: #FFF;
+    transition: 0.5s;
+}
+
+.productsSection .aboutcourseBtn:hover {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.productsSection .aboutCourse {
+    color: #858585;
+    display: inline-block;
+}
+
+.productsSection .cardText {
+    font-weight: 300;
+}
+
+.productsSection .cardFooter {
+    margin-top: 0.5rem;
+}
+
+.productsSection h5 {
+    margin-bottom: 0;
+}
+
+@media(max-width:768px) {
+    .productsSection .aboutcourseBtn {
+        display: block;
+        text-align: center;
+    }
+}
+
+
+/***************** Product Card End*************/
 
 @media(max-width:1200px) {
     .hdingBox {
@@ -62,7 +180,70 @@ h2.title_ourcourse {
     }
     .fulWidth {
         width: 100%;
-        padding-left: 1rem;
-        padding-right: 1rem;
     }
+    .hdingsection ul {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .skillsBasedCont {
+        padding: 2rem 0;
+    }
+}
+
+@media(max-width:600px) {
+    .hdingBox {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.highlitedButton {
+    background-color: #1c87c9;
+    color: #fff !important;
+    padding: 1rem 1rem!important;
+}
+
+.infoButton {
+    cursor: pointer;
+    position: absolute;
+    bottom: 4.7rem;
+    right: 2.5rem;
+}
+
+.highliterContent {
+    border-radius: 5px;
+    color: #000;
+    padding: 2rem 2rem 1rem 2rem;
+    height: 28vh;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    background: #dde5f4;
+    position: relative;
+}
+
+.invatedComaRgt {
+    position: absolute;
+    right: 4%;
+    top: 7.5rem;
+}
+
+@keyframes glowing {
+    0% {
+        background-color: #2597f1;
+        box-shadow: 0 0 5px #cad9ee;
+    }
+    50% {
+        background-color: #0063ff;
+        box-shadow: 0 0 20px #c7d1d8;
+    }
+    100% {
+        background-color: #077bdc;
+        box-shadow: 0 0 5px #e8f1ff;
+    }
+}
+
+.highlitedButton {
+    animation: glowing 1300ms infinite;
 }

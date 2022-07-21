@@ -1,0 +1,13 @@
+.cerficateImg {
+    border: #ddd 3px solid;
+}
+
+.cerficateImg:hover {
+    cursor: zoom-in;
+}
+
+@media(max-width:768px) {
+    .cerficateImg {
+        margin-top: 1rem;
+    }
+}

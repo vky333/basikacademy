@@ -1,0 +1,20 @@
+.feeContainer {
+    width: 100%;
+    background: linear-gradient(0deg, rgb(0 116 215) 0%, rgb(33 150 243 / 97%) 100%);
+    color: #fff;
+    padding: 3rem;
+    border-radius: 5px;
+}
+
+.feeContainer ul li {
+    padding-left: 1%;
+    font-size: 22px;
+    list-style: square;
+    margin-left: 2.4%;
+}
+
+@media(max-width:992px) {
+    .feeContainer ul li {
+        font-size: 16px;
+    }
+}

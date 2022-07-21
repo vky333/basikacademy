@@ -2,13 +2,15 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
+
+
 const Footer = () => {
   return (
     <>
       <footer className="footerContainer">
         <div className="container">
           <div className="row">
-            <div className="col-sm-3">
+            <div className="col-md-3">
               <div className="logo-footer">
                 <Image
                   src="/basikLogo.png"
@@ -18,18 +20,23 @@ const Footer = () => {
                 />
               </div>
             </div>
-            <div className="col-sm-3">
+            <div className="col-md-3">
               <div className="footerlist">
-                <h5 className="text-dark mb-3 fw-bold">Explore more</h5>
+                <h5 className="mb-3 fw-bold">Explore more</h5>
                 <ul>
+                <li>
+                    <Link href="/">
+                      <a>Home</a>
+                    </Link>
+                  </li>
                   <li>
-                    <Link href="#">
+                    <Link href="/course01">
                       <a>Courses</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/about">
-                      <a>About us</a>
+                      <a>Our Story</a>
                     </Link>
                   </li>
                   <li>
@@ -38,13 +45,13 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
+                    <Link href="/student">
                       <a>Placement</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/blog">
-                      <a>Blog</a>
+                      <a>Knowledge Center</a>
                     </Link>
                   </li>
                   <li>
@@ -55,44 +62,27 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-sm-4">
+            <div className="col-md-4">
               <div className="footerlist">
-                <h5 className="text-dark mb-3 fw-bold">Courses</h5>
+                <h5 className="mb-3 fw-bold">Courses</h5>
                 <ul>
                   <li>
-                    <Link href="#">
-                      <a>Short Term Professional Courses</a>
-                    </Link>
+                  <Link href="/course01"><a>B-Voc in Bussiness Accounting and Taxation</a></Link>
                   </li>
                   <li>
-                    <Link href="#">
-                      <a>Backend Accounts Executive</a>
-                    </Link>
+                  <Link href="/course02"><a>Accounts & e -Taxation</a></Link>
                   </li>
                   <li>
-                    <Link href="#">
-                      <a>Backend Finance Executive</a>
-                    </Link>
+                  <Link href="/course03"><a>Certified Accounts Executive</a></Link>
                   </li>
                   <li>
-                    <Link href="#">
-                      <a>Real Time Accountant</a>
-                    </Link>
+                  <Link href="/course04"><a>Accounting Software Applications</a></Link>
                   </li>
-                  <li>
-                    <Link href="#">
-                      <a>Certified Finance Executive</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#">
-                      <a>Two Years Accounting Degree Course</a>
-                    </Link>
-                  </li>
+                  
                 </ul>
               </div>
             </div>
-            <div className="col-sm-2">
+            <div className="col-md-2">
               <div className="social-footer">
                 <Link href="#">
                   <a>
@@ -154,11 +144,13 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        
       </footer>
       <section className="copyright-sec">
+
         <div className="container">
           <div className="row">
-            <div className="col-sm-12 text-center">
+            <div className="col-md-12 text-center">
               <div className="copyright">
                 <p className="m-0">
                   &copy; Copyright Basik Academy | All Right Reserved 2022
@@ -168,6 +160,7 @@ const Footer = () => {
           </div>
         </div>
       </section>
+      <script src="//code.tidio.co/iwsznwvxmjblq4bfdr3wnwcyzctzfn6l.js" async></script>
     </>
   );
 };

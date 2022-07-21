@@ -1,25 +1,30 @@
-/**** Section02 Start****/
-
-.aboutsection02 p {
-    margin-bottom: 0.5rem;
-}
-
-
-/**** Section02 End****/
-
-
 /**** Section03 Start****/
 
+.aboutBanr {
+    margin-top: 85px;
+    background: #eee;
+    padding: 3rem 0 2rem 0;
+    text-align: center;
+    color: #3d3c3c;
+    font-weight: 600;
+}
+
+.aboutSection04 {
+    padding-bottom: 3rem !important;
+}
+
 .aboutsection03 {
-    padding: 4rem 0 4rem 0;
+    padding: 0rem 0 0rem 0;
     width: 100%;
     height: 100%;
     font-size: 18px;
-    background-color: #125369;
+    /* background-color: #edeeff; */
+    color: #333;
 }
 
 .aboutsection03 h1 {
-    color: #fff;
+    color: #333;
+    width: 100%;
 }
 
 .aboutsection03 ul {
@@ -40,6 +45,38 @@
     margin-bottom: 0;
 }
 
+.lftBox {
+    width: 100%;
+}
+
+.btmBox {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    color: #0b5ed7;
+    font-weight: 600;
+    margin-bottom: 3.5rem;
+}
+
+.aboutsection03 .rgtBox {
+    position: relative;
+    padding: 3rem 0 0 2rem;
+}
+
+.aboutsection03 h5 {
+    font-weight: 400;
+    font-family: arial;
+    text-align: justify;
+}
+
+.aboutsection03 .nameTxt {
+    width: 33%;
+}
+
+.aboutsection03 .nameTxt p {
+    font-size: 11px;
+}
+
 
 /**** Section03 End****/
 
@@ -49,17 +86,21 @@
 .aboutSection04 {
     width: 100%;
     height: 100%;
+    background: #fff;
 }
 
 .aboutSection04 .lftImg {
-    width: 45%;
-    margin-right: 10%;
-    float: left;
+    width: 50%;
+    float: right;
 }
 
 .aboutSection04 .rightContent {
     width: 40%;
     float: left;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
 }
 
 .aboutSection04 .rightContent h4 {
@@ -82,6 +123,20 @@
     margin-bottom: 0;
 }
 
+.hdingPara {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 600;
+    color: #575de9;
+}
+
+.section07 .inrBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 /**** Section04 End****/
 
@@ -91,7 +146,8 @@
 .aboutSection05 {
     width: 100%;
     height: 100%;
-    background-color: #f0f8ff;
+    background-color: #0b4c7c;
+    color: #FFF;
 }
 
 .aboutSection05 .CardGlobal {
@@ -99,37 +155,145 @@
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
+    width: 30%;
+    margin-bottom: 5rem;
+}
+
+.aboutSection05 .CardGlobal img {
+    border-radius: 100%;
+    border: #d5d0c7 5px solid !important;
+}
+
+.aboutSection05 .CardGlobal:nth-of-type(4),
+.aboutSection05 .CardGlobal:nth-of-type(5),
+.aboutSection05 .CardGlobal:nth-of-type(6) {
+    margin-bottom: 0;
 }
 
 .aboutSection05 .CardGlobal h4 {
-    color: #0d6efd;
-    font-weight: bold;
     margin: 0.5rem 0;
 }
 
 .aboutSection05 .CardGlobal h5 {
-    font-weight: 500;
+    font-weight: 300;
     margin-bottom: 0;
 }
 
 .aboutSection05 .cardBX {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: 3rem;
+    color: #fff;
 }
 
 
 /**** About Section05 End****/
 
+
+/**** About Section06 Start****/
+
+.section06 {
+    width: 100%;
+    height: 100%;
+    background-color: #edeeff;
+    padding: 4rem 0;
+}
+
+.section06 ul {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.section06 ul li {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 1rem 0.5rem;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+}
+
+.section06 ul li p {
+    margin-bottom: 0;
+}
+
+.section06 ul li:last-child {
+    margin-bottom: 0;
+}
+
+.section06 .contBox {
+    width: 100%;
+    font-size: 18px;
+    margin-top: 2rem;
+}
+
+.section06 .contBox h4 {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.section06 h1 {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+
+/**** About Section06 End****/
+
+.chartImg {
+    margin-left: 4rem;
+}
+
+@media(max-width:1100px) {
+    .aboutsection03 .rgtBox {
+        padding: 0rem 0 0 0;
+    }
+}
+
+@media(max-width:992px) {
+    .aboutSection05 .CardGlobal {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 1rem;
+        margin-bottom: 5rem;
+        text-align: center;
+    }
+    .aboutBanr {
+        margin-top: 62px;
+    }
+    .section06 ul {
+        flex-direction: column;
+    }
+    .section06 ul li {
+        width: 100%;
+    }
+}
+
 @media(max-width:768px) {
+    .ourAmBx {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutSection04 .lftImg {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .btmBox {
+        margin-bottom: 1rem;
+    }
     .aboutsection03 ul li {
         width: 100%;
         margin: 1% 0% 1% 4%;
-    }
-    .aboutSection04 .lftImg {
-        display: none;
     }
     .aboutSection04 .rightContent {
         width: 100%;
@@ -139,5 +303,16 @@
     }
     .aboutSection05 .CardGlobal {
         margin-bottom: 2rem;
+    }
+    .section06 ul li {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .section06 .contBox {
+        text-align: center;
+        margin: 1rem 0;
+    }
+    .chartImg {
+        margin-left: 0rem;
     }
 }

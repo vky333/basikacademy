@@ -4,111 +4,74 @@ import Footer from "../../globals/footer/Footer";
 import HeadingContent from "../../globals/headingContent/HeadingContent";
 import StaticBanner from "../../globals/banner/StaticBanner";
 import Card_Custom from "./Card_Custom";
-import { Carousel, section } from "react-bootstrap";
+import styles from "../../pagescomponents/faculty/Faculty.module.css";
 import Image from "next/image";
+import FacultySection from "./FacultySection";
+import MasterVideo from "./MasterVideo";
 
 export const Faculty = () => {
   return (
     <>
       <Header />
-      <section className="Ban mb-5  ">
-        <Carousel>
-          <Carousel.Item>
-            <StaticBanner
-              BannerImage="/Banners/Home/Homepage-banner-05.png"
-              Heading="Meet Our Faculty"
-              Para="Every Student Matter to us and Basik Pride does is about opening doors to students, gradu"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <StaticBanner
-              BannerImage="/Banners/Home/Homepage-banner-03.png"
-              Heading="Meet Our Faculty"
-              Para="Every Student Matter to us and Basik Pride does is about opening doors to students, gradu"
-            />
-          </Carousel.Item>
-        </Carousel>
-      </section>
-      <section>
+
+      <StaticBanner
+        BannerImage="/banner/faculty/faculty-banner-img.jpg"
+        Heading="Meet Our Faculty"
+        Para="Experiential learning is the key to transforming careers... Learn by Doing with the Industry Experts..."
+      />
+
+      <section className={`${styles.facultySection} sectionGlobal`}>
         <div className="container">
           <div className="row">
             <div className="col-md-12 mb-4">
-              Basik Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industrys standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              Basik Academy houses highly educated and well experienced council
+              members and faculties from the field of banking, accounts &
+              finance, they impart best of the knowledge, skills and training to
+              the learners and make them industry relevant professionals from
+              the beginning of their career journey
             </div>
             <div className="col-md-12 mb-4">
               <HeadingContent
-                heading="Our Academic Council"
-                pagragraph="Basik Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industrys standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of
-                type and scrambled it to make a type specimen book."
+                heading="Our <span>Academic Council</span>"
+                pagragraph="The Academic Council of BASIK Academy has control over and is responsible for the maintenance of standards of education,
+                teaching and training, inter-departmental coordination, research, examinations, and tests within the Academy."
               />
             </div>
-            <div className="col-md-6 facultyCard01">
+            <div className="col-lg-6 facultyCard01">
               <Card_Custom
                 CardImage="/faculty/c1.png"
-                CardTitle="MS.Preeti Gupta "
+                CardTitle="Preeti Gupta "
                 CardText="M Com, MCA, MSW & M.ED
                 Academic Head-Blackboard
                 Group of Companies."
+                facultyName="Preeti Gupta "
+                facultyHistory="Erstwhile Assistant Director – Swami Vivekanand
+                 Subharti University, Assistant Prof. SIBM, Pune(yr.2007-09),
+                  Academic Council Member-Lingayas Vidyapeeth since yr.2019.
+                  She has stint in Design & Development of Curriculum & Content 
+                  and also has expertise on Students’ Career Counselling "
               />
             </div>
-            <div className="col-md-6 facultyCard01">
+            <div className="col-lg-6 facultyCard01">
               <Card_Custom
                 CardImage="/faculty/c2.png"
                 CardTitle="Dr.Shahabuddin Usmani "
                 CardText="PHD (Commerce)
                 Academic Advisory & Consultancy (Professor - Jamia Millia Islamia, University)"
+                facultyName="Dr.Shahabuddin Usmani "
+                facultyHistory="Dr. Usmani is Visiting Faculty in IGNOU (Dept. Of Commerce);
+                 Assistant Prof. in Al. Falah University (Dept. Of Management Studies); 
+                 Author of ‘Industrial Relations in India ‘published by Sonali 
+                 Publication in the Yr.2010 "
               />
             </div>
 
-            <div className="col-md-12 mb-4">
-              <h1>Our Faculty Members</h1>
-            </div>
-
-            <div className="col-md-3 facultyCard02">
-              <Card_Custom
-                CardImage="/faculty/f1.png"
-                CardTitle="Dr. Vivek Singh "
-                CardText="Phd. Commerce
-                Training Consultant"
-              />
-            </div>
-            <div className="col-md-3 facultyCard02">
-              <Card_Custom
-                CardImage="/faculty/f2.png"
-                CardTitle="Mr. Amir "
-                CardText="M.Phil-English
-                Freelance Trainer"
-              />
-            </div>
-            <div className="col-md-3 facultyCard02">
-              <Card_Custom
-                CardImage="/faculty/f3.png"
-                CardTitle="Ms.Kanika "
-                CardText="M.Com,CA-Inter
-                Trainer-Taxation"
-              />
-            </div>
-            <div className="col-md-3 facultyCard02">
-              <Card_Custom
-                CardImage="/faculty/f4.png"
-                CardTitle="Atul Agarwal "
-                CardText="MBA Finance
-                Trainer-Computer & Accounts"
-              />
-            </div>
+            <FacultySection />
           </div>
         </div>
+      </section>
+      <section className="pt-1 pb-5 sectionGlobal">
+        <MasterVideo/>
       </section>
       <Footer />
     </>

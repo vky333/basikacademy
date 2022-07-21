@@ -1,0 +1,159 @@
+.otta_header {
+    color: #4D4D4D;
+}
+
+.otta_header h5 {
+    margin-bottom: 0;
+}
+
+.otta_mainHdrContent {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.otta_mainHdrContent h4 {
+    font-weight: 500;
+    color: #4D4D4D;
+}
+
+.otta_mainHdrContent p {
+    width: 100%;
+}
+
+.otta_panel {
+    height: 100%;
+}
+
+.otaContaner {
+    background: rgba(255, 255, 255, 0.9) url(/BG_otta.png) top center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.mntrImg {
+    position: absolute;
+    top: 2.4rem;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+.mntrImg img {
+    border: #e6e9ec 2px solid !important;
+    border-radius: 100px !important;
+}
+
+.option_wrapper .bgspan {
+    background-color: #eee;
+}
+
+.option_wrapper input[type="checkbox"] {
+    display: none;
+}
+
+.option_wrapper label {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    background-color: #fff;
+    border-radius: 2.2rem;
+    font-size: 1rem;
+    margin: 0.48rem 0 0 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0.69rem 1.8rem;
+    display: flex;
+    border: #ddd 1px solid;
+    font-weight: 500;
+    color: #4D4D4D;
+    align-items: center;
+}
+
+.option_wrapper .frmLabl {
+    margin: 1rem 0 0 0;
+    padding: 0;
+    border: none;
+}
+
+
+/* .option_wrapper input[type="checkbox"]:checked+label {
+    background: linear-gradient(0deg, rgb(0 116 215) 0%, rgb(33 150 243 / 97%) 100%);
+    color: #fff;
+} */
+
+.ottastep {
+    display: none !important;
+}
+
+.prevBtn,
+.nextBtn {
+    border-radius: 2.2rem !important;
+    padding: 0 5rem;
+}
+
+.prevBtn {
+    background-color: #fff;
+    border-radius: 40px;
+    color: #0a58ca;
+}
+
+.nextBtn {
+    background-color: #0a58ca;
+    border-radius: 40px;
+}
+
+.progress_bar {
+    height: 2px;
+    margin-bottom: 5rem;
+}
+
+.option_Content {
+    width: max-content;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    text-align: left;
+    max-height: 80px;
+    width: 100%;
+    background: #fff;
+}
+
+.logo img {
+    position: relative;
+    z-index: 3;
+}
+
+.otta_footer {
+    border: none;
+}
+
+@media(max-width:992px) {}
+
+@media(max-width:768px) {
+    .otta_header h4 {
+        font-size: 25px;
+    }
+    .login_wrapper {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:550px) {
+    .otta_mainHdrContent {
+        width: 90%;
+    }
+    .option_Content {
+        flex-direction: column;
+    }
+    .otta_header h4 {
+        font-size: 18px;
+    }
+}

@@ -4,7 +4,7 @@
     width: 100%;
     height: 100%;
     background-size: cover;
-    color: #FFF;
+    color: #fff;
     position: relative;
 }
 
@@ -20,7 +20,7 @@
 
 .staticBanner .textBannerBox {
     width: 45%;
-    bottom: 7rem;
+    bottom: 16rem;
     position: absolute;
 }
 
@@ -31,7 +31,13 @@
 
 .staticBanner .banerBtnCont {
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+    display: flex;
+}
+
+.staticBanner .banerBtnCont a {
+    margin-right: 2rem;
+    font-size: 16px;
 }
 
 .staticBanner .starCont img {
@@ -54,6 +60,33 @@
     margin-right: 0;
 }
 
+.banerVideo {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: auto;
+}
+
+.textContainer {
+    width: 100%;
+    max-height: 233px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.videoContainer {
+    border-radius: 6px;
+    background: #ffffff;
+    padding: 0.8rem;
+    position: absolute;
+    top: 4rem;
+    width: 30%;
+    right: 5%;
+}
+
 
 /************ Banner End *******************/
 
@@ -68,6 +101,10 @@
     padding-right: 5rem;
 }
 
+.sectionContent01 ul {
+    margin-top: 1.5rem;
+}
+
 .sectionContent01 ul.keyBullets li {
     list-style: disc;
     display: flex;
@@ -77,6 +114,10 @@
     margin-bottom: 0.8rem;
 }
 
+.sectionContent01 ul.keyBullets li:last-child {
+    margin-bottom: 0;
+}
+
 .sectionContent01 .viewCourseBtn {
     padding: 0.5rem 2rem;
 }
@@ -84,13 +125,15 @@
 .sectionContent01 .keyText {
     width: 100%;
     margin-left: 1rem;
-    font-size: 14px;
     line-height: normal;
+    font-weight: 500;
 }
 
 .sectionContent01 .kyContainer {
     background: #edeeff;
     padding: 2rem;
+    border-radius: 10px;
+    position: relative;
 }
 
 
@@ -103,7 +146,7 @@
     padding: 4rem 0 4rem 0;
     width: 100%;
     height: 100%;
-    font-size: 18px;
+    font-size: 16px;
     background-color: #125369;
 }
 
@@ -121,7 +164,7 @@
 }
 
 .getCourseCont ul.getCoursList li {
-    color: #FFF;
+    color: #fff;
     width: 50%;
     line-height: normal;
     display: flex;
@@ -160,47 +203,139 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
+    background-color: #f6fbfd;
+    position: relative;
 }
 
-.acordanContaner3 {
-    /* background: url(/aboutPage/finaceExecutive.png); */
-    padding: 4rem 0 4rem 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+.acordanContaner1 {
+    background: #f6fbfd;
+}
+
+.Course02 {
+    background-color: #f6fbfd;
     background-size: cover;
+    padding: 4rem 0;
+}
+
+.acordanContaner.Course03 {
+    background: #eef0f1 url(/course/6month.jpg) no-repeat top center;
+    background-size: cover;
+    padding-bottom: 4rem;
+    background-attachment: fixed;
+}
+
+.acordanContaner.Course04 {
+    background: #eef0f1 url(/course/shortBg.jpg) no-repeat top center;
+    background-size: cover;
+    padding-bottom: 4rem;
+    background-attachment: fixed;
 }
 
 .acordanContaner .btnBox button {
-    padding: 0.2rem 2rem;
-    margin-right: 3rem;
+    padding: 0;
+    margin-right: 0;
+}
+
+.acordanContaner .btnBox button a {
+    display: block;
+    padding: 0.3rem 2rem;
+}
+
+.acordanContaner .btnBox button a:hover {
+    color: #fff;
 }
 
 .acordanContaner .hedingAcordian {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
 }
 
 .acordanContaner .hedingAcordian span:nth-of-type(1) {
-    font-weight: bold;
     margin-right: 1.5rem;
 }
 
 .acordanContaner .lftBox {
     float: left;
-    width: 50%;
-    margin-right: 5%;
+    width: 95%;
+}
+
+.acordanContaner1 .lftBox {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.donwloadBtn {
+    float: left;
+}
+
+.donwloadBtn a {
+    border: #0d6efd 2px solid;
+    background: none;
+    color: #0d6efd;
 }
 
 .acordanContaner .rghtBox {
-    width: auto;
-    float: right;
-    max-height: 660px;
-    height: 100%;
-    padding-top: 5rem;
+    background: linear-gradient(0deg, rgb(0 116 215) 0%, rgb(33 150 243 / 97%) 100%);
+    margin-left: 5%;
+    padding: 1.5rem 0;
+    border-radius: 4px;
 }
 
-.acordanContaner .rghtBox img {
-    max-width: 100%;
+.acordanContaner .rghtBox ul {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.acordanContaner .rghtBox ul li {
+    width: 39%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.acordanContaner .rghtBox ul li span.circleBox {
+    background-color: #fff;
+    display: flex;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+    font-size: 25px;
+    color: #333;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.acordanContaner .rghtBox ul li span {
+    font-weight: 500;
+}
+
+.acordanContaner .lftBox h3 {
+    background-color: #eb6320;
+    padding: 0.6rem 1rem;
+    font-size: 16px;
+    margin: 0;
+    border: #ddd 1px solid;
+    margin-bottom: 1px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.hdingBox button {
+    color: #000000;
 }
 
 
@@ -214,22 +349,101 @@
     margin-top: 4rem;
 }
 
+.masterVideo h6 {
+    margin-bottom: 5px;
+}
+
+.CourseBanVideoBox {
+    margin-top: 3rem;
+}
+
+.CertificateBox {
+    padding: 3rem 0 3rem 0;
+    background: #125369;
+    color: #fff;
+}
+
+.CertificateBox h1 {
+    padding-top: 2rem;
+}
+
+.CertificateBox h1 span {
+    color: #dad448;
+}
+
+
+/*** Sticky Menu Css Start *****/
+
+header.stickyMenuContainer {
+    z-index: 5;
+    width: 100%;
+    position: fixed;
+    transition: 0.3s linear;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    box-shadow: 0 2px 5px -1px rgba(0, 0, 0, .08);
+    display: flex;
+    align-items: center;
+    padding-left: 5rem;
+}
+
+header.stickyMenuContainer .menuName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header.stickyMenuContainer .menuName .nvNme {
+    font-weight: 500;
+    color: #333!important;
+    transition: 0.3s;
+    border-radius: 5px;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 0 0.3rem;
+    padding: 2.5rem 1rem;
+    border-radius: 0;
+    border-bottom: #fff 4px solid;
+}
+
+header.stickyMenuContainer .menuName .nvNme:hover,
+header.stickyMenuContainer .menuName .nvNme.active {
+    background: #edeeff;
+    border-bottom: #ff003a 4px solid;
+}
+
+.btnBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+
+/*** Sticky Menu Css End *****/
+
+.termCond {
+    font-size: 12px;
+    position: absolute;
+    bottom: 10px;
+    right: 3%;
+    font-weight: 600;
+}
+
 
 /************ Media Quwery Start *******************/
 
-@media(max-width:1366px) {
+@media (max-width: 1366px) {
     .staticBanner .textBannerBox {
         width: 45%;
     }
 }
 
-@media(max-width:1300px) {
-    .staticBanner .textBannerBox {
-        bottom: 5rem;
-    }
-}
+@media (max-width: 1300px) {}
 
-@media(max-width:1200px) {
+@media (max-width: 1200px) {
     .staticBanner .textBannerBox {
         width: 80%;
         bottom: 3rem;
@@ -238,15 +452,24 @@
         padding: 0.2rem 1rem;
         margin-right: 1rem;
     }
-}
-
-@media(max-width:1100px) {
-    .staticBanner .textBannerBox {
-        bottom: 1rem;
+    .acordanContaner .rghtBox {
+        display: none;
+    }
+    .Course02.acordanContaner .lftBox {
+        width: 100%;
+    }
+    .acordanContaner .lftBox {
+        width: 100%;
     }
 }
 
-@media(max-width:992px) {
+@media (max-width: 1100px) {
+    .staticBanner .textBannerBox {
+        bottom: 12rem;
+    }
+}
+
+@media (max-width: 992px) {
     .staticBanner .staticBanner {
         padding: 2rem 0;
     }
@@ -260,9 +483,6 @@
     .sectionContent01 .box01 {
         padding-right: 0rem;
         margin-bottom: 3rem;
-    }
-    .acordanContaner .rghtBox {
-        display: none;
     }
     .acordanContaner .lftBox {
         width: 100%;
@@ -280,15 +500,29 @@
     .staticBanner .banerBtnCont {
         margin-top: 1rem;
     }
+    header.stickyMenuContainer {
+        padding-left: 0;
+        overflow-x: scroll;
+    }
+    header.stickyMenuContainer .menuName .nvNme:nth-of-type(6) {
+        padding: 1rem 0.5rem;
+        border-bottom: #fff 2px solid;
+        min-width: 170px;
+        width: 100%;
+    }
+    .acordanContaner .btnBox button a {
+        padding: 0.3rem 0rem;
+    }
 }
 
-@media(max-width:900px) {}
-
-@media(max-width:768px) {
-    .staticBanner .textBannerBox {
-        left: 5%;
-        bottom: 2rem;
+@media (max-width: 900px) {
+    .textContainer {
+        top: 3rem;
+        width: 96%;
     }
+}
+
+@media (max-width: 768px) {
     .staticBanner h1 {
         font-size: 1rem;
     }
@@ -308,9 +542,24 @@
     .studentInfo01 {
         margin-top: 2rem;
     }
+    .staticBanner .banerBtnCont a {
+        font-size: 13px;
+        padding: 0.3rem 0.5rem;
+    }
+    .getCourseCont {
+        font-size: 14px;
+    }
+    .bannerImageContainer span {
+        min-height: 300px !important;
+    }
+    .CertificateBox .col-md-8 {
+        padding: 3rem 0 3rem 0;
+        background: #125369;
+        color: #fff;
+    }
 }
 
-@media(max-width:600px) {
+@media (max-width: 600px) {
     .staticBanner .banerBtnCont button {
         margin-right: 0.5rem;
         border-radius: 30px;
@@ -337,22 +586,27 @@
         bottom: 1rem;
         width: 90%;
     }
-    .bannerImageContainer span {
-        min-height: 300px !important;
-    }
 }
 
-@media(max-width:500px) {}
-
-@media(max-width:400px) {
+@media (max-width: 500px) {
+    .acordanContaner .btnBox button a {
+        padding: 0.3rem 0.5rem;
+    }
     .acordanContaner .btnBox button {
-        padding: 0.2rem 1rem;
+        padding: 0.2rem 0.5rem;
         margin-right: 0.5rem;
-        font-size: 13px;
+        font-size: 11px;
     }
 }
 
-@media(max-width:320px) {}
+@media (max-width: 400px) {
+    .staticBanner .banerBtnCont a {
+        font-size: 11px;
+        padding: 0.3rem 0.5rem;
+    }
+}
+
+@media (max-width: 320px) {}
 
 
 /************ Media Quwery End *******************/

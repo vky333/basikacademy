@@ -1,17 +1,14 @@
 import React from "react";
 import styles from '../Course.module.css'
-import {Button} from 'react-bootstrap';
+import AnchorButton from "../../../globals/button/AnchorButton";
 
 export const BannerBtnCont = () => {
   return (
     <>
       <div className={`${styles.banerBtnCont}`}>
-        <Button variant="primary" size="lg">
-          Enroll Now
-        </Button>
-        <Button variant="outline-primary" size="lg">
-          Know More
-        </Button>
+        <AnchorButton anchorLink="/contact" buttonName="Enroll Now"/>
+        {/* <AnchorButton anchorLink="/gallery" buttonName="Take a Trial Video"/> */}
+        
       </div>
     </>
   );

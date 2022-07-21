@@ -1,0 +1,228 @@
+.txtImageCont {
+    padding: 4rem 0 0 0 !important;
+}
+
+.boxContainer {
+    display: flex;
+    align-items: center;
+}
+
+.lftContent {
+    width: 50%;
+    padding-right: 7rem;
+}
+
+.rgtImg {
+    width: 50%;
+    display: flex;
+}
+
+.formSection {
+    background-color: #eef0f1;
+    padding: 3rem 0;
+}
+
+.formBox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.studentPlacContainer span,
+.formSection span {
+    color: #575de9;
+}
+
+.forminput {
+    width: 30%;
+}
+
+.formtextarea {
+    width: 65%;
+}
+
+.contactBtn {
+    padding: 0.5rem 2rem;
+}
+
+.studentPlacContainer {
+    padding: 3rem 0;
+}
+
+.ConsSection01 {
+    padding: 3rem 0;
+}
+
+.studentCard {
+    text-align: left;
+}
+
+.studentBanner {
+    position: relative;
+    margin-top: 82px;
+    display: flex;
+}
+
+.bannerTextContainer {
+    position: absolute;
+    top: 0;
+    left: 4%;
+    color: #000;
+    bottom: 0;
+    margin: auto;
+    max-height: 250px;
+    background: #FFF;
+    padding: 1.5rem;
+}
+
+.bannerTextContainer H2 {
+    margin-bottom: 2rem;
+}
+
+.bannerTextContainer ul li {
+    position: relative;
+    padding-left: 2.5rem;
+    margin-bottom: 0.8rem;
+    font-size: 17px;
+}
+
+.bannerTextContainer ul li:before {
+    content: "";
+    text-align: left;
+    background: url(/icons/rightIcon.png);
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+}
+
+.assis_main {
+    border: 2px solid rgb(0 116 215);
+    padding: 10px;
+    min-height: 335px;
+    cursor: pointer;
+    width: 20%;
+}
+
+.assist_front {
+    inset: 0;
+    background: rgb(0 116 215);
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+.assist_front:after {
+    position: absolute;
+    content: '';
+    border-top: 15px solid transparent;
+    border-left: 15px solid rgb(0 116 215);
+    border-bottom: 15px solid transparent;
+    top: 15px;
+    right: -15px;
+}
+
+.assist_front.after_delete:after {
+    display: none;
+}
+
+.assis_main:hover .assist_front {
+    opacity: 1;
+}
+
+.registerBtn {
+    text-align: right;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.modalTitle {
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #333;
+}
+
+@media(max-width:1024px) {
+    .bannerTextContainer ul li {
+        margin-bottom: 0.6rem;
+        font-size: 13px;
+    }
+}
+
+@media(max-width:992px) {
+    .boxContainer {
+        flex-direction: column;
+    }
+    .lftContent {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        padding-right: 0;
+    }
+    .rgtImg {
+        width: 100%;
+        justify-content: center;
+    }
+    .studentBanner {
+        margin-top: 60px;
+        min-height: 340px;
+    }
+    .txtImageCont {
+        padding: 1.5rem 0 0 0;
+    }
+    .bannerTextContainer H2 {
+        margin-bottom: 1rem;
+        font-size: 18px;
+    }
+}
+
+@media(max-width:768px) {
+    .studentBanner {
+        min-height: 340px;
+    }
+    .ConsSection01 {
+        padding: 2rem 0;
+    }
+    .assis_main {
+        width: 100%;
+        border: 2px solid #575de9 !important;
+        border-bottom: none !important;
+    }
+    .assis_main:last-child {
+        border: 2px solid #575de9 !important;
+    }
+    .assist_front:after {
+        display: none;
+    }
+}
+
+@media(max-width:692px) {
+    .bannerTextContainer {
+        overflow-y: scroll;
+    }
+    .bannerTextContainer H2 {
+        margin-bottom: 1rem;
+        font-size: 16px;
+    }
+}
+
+@media(max-width:400px) {
+    .bannerTextContainer H2 {
+        margin-bottom: 1rem;
+        font-size: 16px;
+    }
+    .bannerTextContainer {
+        left: 3%;
+        right: 3%;
+        top: inherit;
+        bottom: 3%;
+    }
+}

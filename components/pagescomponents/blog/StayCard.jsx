@@ -5,9 +5,9 @@ import {Form,Button} from'react-bootstrap'
 export const StayCard = (props) => {
   return (
     <>
-        <aside className={`${styles.styaCard} mt-3 `}>
+        <aside className={`${styles.styaCard} mb-3 `}>
             <h5>Stay Up To Date With Us </h5>
-            <p className='mb-3'>Be the first to know about new class launches and announcements</p>
+            <p className='mb-3'>Be the first to know about new class launches and announcements.</p>
             <div className='emailContainer'>
                 <Form>
                     <Form.Group className='mb-4' controlId="formBasicEmail">                    

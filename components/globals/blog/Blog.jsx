@@ -1,67 +1,109 @@
-import React from 'react';
-import { Button } from 'react-bootstrap';
-import Image from 'next/image';
-const Blog = () =>{
-    return(
-        <>
-           <section className='blog'>
-           <div className="container">
-                        <div className="row">
-                            <div className="col-sm-12 text-center mb-5">
-                                <div className="heading-box">
-                                    <h1>Our Blog & Videos</h1>
-                                </div>
-                            </div>
-                            <div className="col-sm-4">
-                                <div className="blog-card">
-                                    <div className="blogImg">
-                                        <Image width={323} height={298} src="/Home/blog/Blog-01.png" alt="Blog" />
-                                    </div>
-                                    <div className="blog-content">
-                                        <h5>Jobs</h5>
-                                        <h4>11 Best Job Oriented Short Term Courses Which are In-Demand</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-sm-4">
-                                <div className="blog-card">
-                                    <div className="blogImg">
-                                        <Image width={323} height={380} src="/Home/blog/Blog-02.png" alt="Blog" />
-                                    </div>
-                                    <div className="blog-content">
-                                        <h5>Career Advice</h5>
-                                        <h4>How to Choose a Career After 12th? </h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-sm-4">
-                                <div className="blog-card">
-                                    <div className="blogImg">
-                                        <Image width={323} height={175} src="/Home/blog/Blog-03.png" alt="Blog" />
-                                    </div>
-                                    <div className="blog-content">
-                                        <h5>Did you know?</h5>
-                                        <h4>Trending Shot Term Courses in 2022</h4>
-                                    </div>
-                                </div>
-                                <div className="blog-card">
-                                    <div className="blogImg">
-                                        <Image width={323} height={373} src="/Home/blog/Blog-04.png" alt="Blog" />
-                                    </div>
-                                    <div className="blog-content">
-                                        <h5>career</h5>
-                                        <h4>Trending Shot Term Courses in 2022</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-sm-12 text-center mt-3">
-                                <Button variant="outline-primary" size="lg" className="viewBorderBtn">View All</Button>
-                            </div>
-                        </div>
-                    </div>
-           </section>
-        </>
-    )
-}
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import AnchorButton from "../button/AnchorButton";
+
+const Blog = () => {
+  return (
+    <>
+      <section className="blog sectionGlobal">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12 text-center mb-5">
+              <div className="heading-box">
+                <h1>
+                  Knowledge <span>Center</span>
+                </h1>
+              </div>
+            </div>
+            <div className="col-sm-3">
+              <Link href="/blog">
+              <div className="blog-card">
+                <div className="blogImg">
+                  <Image
+                    width={350}
+                    height={350}
+                    src="/blog/Blog-01.png"
+                    alt="Blog"
+                    className="w-100"
+                  />
+                </div>
+                <div className="blog-content">
+                  <h4>BFSI awareness and its importance for this generation</h4>
+                </div>
+              </div>
+              </Link>
+            </div>
+            <div className="col-sm-3">
+            <Link href="/blog">
+              <div className="blog-card">
+                <div className="blogImg">
+                  <Image
+                    width={350}
+                    height={350}
+                    src="/blog/Blog-02.png"
+                    alt="Blog"
+                    className="w-100"
+                  />
+                </div>
+                <div className="blog-content">
+                  <h4>
+                    Emerging Trends, role of technology is increasing &amp;
+                    changing the face of Education?
+                  </h4>
+                </div>
+              </div>
+              </Link>
+            </div>
+            <div className="col-sm-3">
+            <Link href="/blog">
+              <div className="blog-card">
+                <div className="blogImg">
+                  <Image
+                    width={350}
+                    height={350}
+                    src="/blog/Blog-03.png"
+                    alt="Blog"
+                    className="w-100"
+                  />
+                </div>
+                <div className="blog-content">
+                  <h4>
+                    Business Accounting &amp; Taxation... Aspiring Career
+                    Opportunities
+                  </h4>
+                </div>
+              </div>
+              </Link>
+            </div>
+            <div className="col-sm-3">
+            <Link href="/blog">
+              <div className="blog-card">
+                <div className="blogImg">
+                  <Image
+                    width={350}
+                    height={350}
+                    src="/blog/Blog-04.png"
+                    alt="Blog"
+                    className="w-100"
+                  />
+                </div>
+                <div className="blog-content">
+                  <h4>
+                    B-Voc Degree for Skills - Accelerate your career growth.
+                  </h4>
+                </div>
+              </div>
+              </Link>
+            </div>
+            <div className="col-sm-12 text-center mt-3">
+              <AnchorButton anchorLink="/blog" buttonName="View All" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};
 
 export default Blog;

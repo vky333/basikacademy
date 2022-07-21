@@ -1,180 +1,235 @@
-/******** Blog Banner Start *******/
-
-.blogBanner {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    padding: 2.8rem 0;
-}
-
-.blogBanner .banImg {
-    position: absolute;
-    top: 0;
-    margin: 0 auto;
-    width: 100%;
-    background: #edeeff;
-    text-align: center;
-}
-
-.blogBanner h1 {
-    margin-top: 2rem;
-    width: 50%;
-    font-weight: bold;
-    font-size: 3rem;
-}
-
-.blogBanner .bannerCont {
-    position: relative;
-}
-
-
-/******** Blog Banner End *******/
-
-.blogSection01 {
-    padding: 2rem 0 4rem 0;
-}
-
-.teamsBox {
-    margin: 0.7rem 0;
-    color: #979797;
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.9rem;
-}
-
-.cardTitle {
-    color: #0b5ed7;
-    font-size: 1rem;
-}
-
-.articalContainer .articalInnerBox {
-    display: flex;
-    align-items: self-start;
-    justify-content: space-between;
-}
-
-.articalContainer .articalInnerBox:last-child p {
-    margin-bottom: 0;
-}
-
-.articalContainer h5 {
-    font-weight: bold;
-}
-
-.articalContainer .articalTextBox h6 {
-    margin-bottom: 3px;
-    font-size: 13px;
-}
-
-.articalContainer .articalTextBox p {
-    color: #979797;
-    font-size: 10px;
-}
-
-.articalContainer .articalTextBox {
-    margin-left: 1rem;
-}
-
-.articalContainer .articleImg {
-    border: #eee 1px solid !important;
-    padding: 0.1rem !important;
-}
-
-.styaCard {
-    width: 100%;
-    background-color: #f4f4f4;
-    padding: 1rem;
-}
-
-.styaCard .para01 {
-    line-height: normal;
-    font-size: 13px;
-    font-weight: 500;
-    margin-top: 0.5rem;
-    text-align: center;
-}
-
-.styaCard button {
-    width: 100%;
-}
-
-.styaCard h5 {
-    font-weight: bold;
-    margin-bottom: 1rem;
-    font-size: 19px;
-}
-
-.styaCard p {
-    font-weight: 500;
-    line-height: 17px;
-    margin: 0;
-    font-size: 15px;
-}
-
-.styaCard a {
-    text-decoration: underline;
-}
-
-.tbCont {
-    padding-left: 0rem;
-}
-
-.cardImg {
-    max-width: 30%;
-    border-radius: 10px;
-}
-
-.cardBox .CustomCard {
-    border: 0;
-}
-
-@media(max-width:1100px) {
-    .blogBanner h1 {
-        margin-top: 1rem;
-    }
-}
-
-@media(max-width:992px) {
-    .blogBanner h1 {
-        font-size: 2rem;
-    }
-    .articalContainer .articalInnerBox {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-    .articalContainer .articalTextBox {
-        margin-left: 0rem;
-    }
-    .articalContainer h5 {
-        font-size: 1rem;
-        text-align: center;
-    }
-}
-
-@media(max-width:768px) {
-    .blogBanner h1 {
-        margin-top: 0rem;
-        font-size: 1.4rem;
-    }
-    .tbCont {
-        padding-left: var(--bs-gutter-x, .75rem);
-    }
-}
-
-@media(max-width:600px) {
-    .blogBanner h1 {
-        font-size: 1rem;
-    }
+    /******** Blog Banner Start *******/
+    
     .blogBanner {
-        padding: 2rem 0;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        padding: 0;
+        margin-top: 83px;
     }
-}
-
-@media(max-width:450px) {
+    
+    .blogBanner .banImg {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+    
     .blogBanner h1 {
-        font-size: 16px;
-        width: 65%;
+        margin-top: 2rem;
+        width: 50%;
+        font-weight: bold;
+        font-size: 3rem;
     }
-}
+    
+    .blogBanner .bannerCont {
+        position: relative;
+    }
+    /******** Blog Banner End *******/
+    
+    .blogSection01 {
+        padding: 4rem 0 4rem 0;
+    }
+    
+    .teamsBox {
+        margin: 0.5rem 0;
+        color: #979797;
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.9rem;
+        width: 40%;
+    }
+    
+    .cardTitle {
+        color: #979797;
+        font-size: 1rem;
+        font-weight: normal;
+    }
+    
+    .articalContainer .articalInnerBox {
+        display: flex;
+        align-items: self-start;
+        justify-content: space-between;
+    }
+    
+    .articalContainer .articalInnerBox:last-child p {
+        margin-bottom: 0;
+    }
+    
+    .articalContainer h5 {
+        font-weight: bold;
+    }
+    
+    .articalContainer .articalTextBox h6 {
+        margin-bottom: 3px;
+        font-size: 13px;
+    }
+    
+    .articalContainer .articalTextBox p {
+        color: #979797;
+        font-size: 10px;
+    }
+    
+    .articalContainer .articalTextBox {
+        margin-left: 1rem;
+    }
+    
+    .articalContainer .articleImg {
+        border: #eee 1px solid !important;
+        padding: 0.1rem !important;
+    }
+    
+    .styaCard {
+        width: 90%;
+        background-color: #f4f4f4;
+        padding: 1rem;
+        float: right;
+    }
+    
+    .styaCard .para01 {
+        line-height: normal;
+        font-size: 12px;
+        margin-top: 0.5rem;
+        text-align: center;
+    }
+    
+    .styaCard button {
+        width: 100%;
+        background: linear-gradient(0deg, rgb(0 116 215) 0%, rgb(33 150 243 / 97%) 100%);
+    }
+    
+    .styaCard h5 {
+        font-weight: 600;
+        font-size: 17px;
+    }
+    
+    .styaCard p {
+        font-weight: normal;
+        line-height: 18px;
+        margin: 0;
+    }
+    
+    .styaCard a {
+        text-decoration: underline;
+    }
+    
+    .tbCont {
+        padding-left: 0rem;
+    }
+    
+    .cardImg {
+        max-width: 255px;
+        border-radius: 10px;
+        width: 100%;
+        max-height: 175px;
+    }
+    
+    .cardBox .CustomCard {
+        border: 0;
+    }
+    
+    .readMoreBtn {
+        padding: 0.5rem 1rem;
+        background: linear-gradient(0deg, rgb(0 116 215) 0%, rgb(33 150 243 / 97%) 100%);
+        color: #fff;
+        font-weight: 500;
+        border-radius: 4px;
+    }
+    
+    .readMoreBtn:hover {
+        color: #fff !important;
+    }
+    
+    .cardBody {
+        padding: 0rem 1rem 1rem 1.5rem;
+        height: 215px;
+        overflow-y: scroll;
+    }
+    
+    .blogDescription {
+        line-height: normal;
+        margin-bottom: 1rem;
+    }
+    
+    .cardBox {
+        padding-bottom: 2.5rem;
+        margin-bottom: 3rem;
+        border-bottom: #ddd 1px solid;
+    }
+    
+    .cardBox:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+    
+    @media(max-width:1100px) {
+        .blogBanner h1 {
+            margin-top: 1rem;
+        }
+    }
+    
+    @media(max-width:992px) {
+        .blogBanner h1 {
+            font-size: 2rem;
+        }
+        .teamsBox {
+            width: 100%;
+        }
+        .articalContainer .articalInnerBox {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .articalContainer .articalTextBox {
+            margin-left: 0rem;
+        }
+        .articalContainer h5 {
+            font-size: 1rem;
+            text-align: center;
+        }
+        .blogBanner {
+            margin-top: 27px;
+        }
+    }
+    
+    @media(max-width:768px) {
+        .blogBanner h1 {
+            margin-top: 0rem;
+            font-size: 1.4rem;
+        }
+        .tbCont {
+            padding-left: var(--bs-gutter-x, .75rem);
+        }
+        .cardBody {
+            padding: 0rem 1rem 1rem 0rem;
+        }
+        .cardImg {
+            margin-bottom: 1rem;
+        }
+        .styaCard {
+            width: 100%;
+            margin: 0 auto;
+        }
+        .blogSection01 {
+            padding: 2rem 0 4rem 0;
+        }
+        .cardBox {
+            padding-bottom: 0.5rem;
+        }
+    }
+    
+    @media(max-width:600px) {
+        .blogBanner h1 {
+            font-size: 1rem;
+        }
+        .blogBanner {
+            padding: 2rem 0;
+        }
+    }
+    
+    @media(max-width:450px) {
+        .blogBanner h1 {
+            font-size: 16px;
+            width: 65%;
+        }
+    }

@@ -2,6 +2,10 @@
     width: 65%;
 }
 
+.hdingH1 span {
+    color: #575de9;
+}
+
 @media(max-width:768px) {
     .hdingBox {
         width: 100%;

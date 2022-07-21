@@ -1,7 +1,8 @@
 .contactContainer {
-    background-color: #f0f8ff;
-    padding: 4rem 0;
+    padding: 3.5rem 0 2.5rem 0;
     font-family: arial;
+    margin-top: 82px;
+    background: #eee;
 }
 
 .contactContainer01 {
@@ -15,30 +16,61 @@
 }
 
 .contLeft {
-    padding-right: 10rem;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     height: 100%;
+    width: 60%;
+    margin: 0 auto;
 }
 
 .groupCont {
     display: flex;
     align-items: flex-start;
     font-size: 17px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 3rem;
 }
 
 .formContainer {
-    background-color: rgb(255 255 255 / 100%);
-    padding: 2rem;
-    box-shadow: #ddd 0px 5px 10px;
+    background-color: rgb(255 255 255);
+    padding: 1.5rem;
     color: #555;
-    font-size: 14px;
+    border-radius: 8px;
+    border: #ddd 1px solid;
 }
 
 .contactBtn {
     border-radius: 4px !important;
     font-weight: normal !important;
+}
+
+.contactContainer01 h3 {
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.contactContainer01 b {
+    font-weight: 500;
+}
+
+.contactContainer01 span {
+    color: #575de9;
+}
+
+@media(max-width:992px) {
+    .contLeft {
+        padding-right: 0;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .contactContainer {
+        margin-top: 4rem;
+    }
+    .contactContainer01 {
+        padding: 4rem 1rem;
+    }
 }

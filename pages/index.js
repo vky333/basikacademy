@@ -6,6 +6,8 @@ import PartnerCounter from '../components/globals/partnerCounter/PartnerCounter'
 import TalkComponentGlobal from '../components/globals/talkExpertLink/TalkComponentGlobal';
 import Blog from '../components/globals/blog/Blog';
 import Footer from '../components/globals/footer/Footer';
+import MasterVideo from '../components/pagescomponents/faculty/MasterVideo'
+
 
 export default function Home() {
     return (
@@ -16,11 +18,16 @@ export default function Home() {
         <BasikPrideSection/>
         <PartnerCounter/>
         <TalkComponentGlobal 
-          Heading="Transform your future with basik's education get register and celebrate the life." 
-          Button="Talk to our expert Counsellor"                  
+          Heading="Transform your future with Basik’s education
+          get register and celebrate the life." 
+          buttonName="Talk to Our Expert"                  
         />
+        <section className='masterVideo'>
+        <MasterVideo/>
+       </section>
         <Blog/>
-        <Footer/>        
+        <Footer/>
+            
         </>
     )
 }

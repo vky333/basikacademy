@@ -1,40 +1,71 @@
 /*** Header Css Start *****/
 
+.menuHeader {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top: 0;
+    z-index: 5;
+    box-shadow: #333 0px 0px 3px;
+}
+
 .mainHeader {
     font-size: 16px;
     height: 83px;
     background-color: #FFF;
+    position: relative;
+    z-index: 10;
 }
 
 .menuName a {
-    font-weight: bold;
+    font-weight: 500;
     color: #333!important;
     padding: 0 1rem;
     transition: 0.5s;
     border-radius: 5px;
     line-height: normal;
-    height: 30px;
+    height: 33px;
     display: flex;
     align-items: center;
     position: relative;
 }
 
 .menuName a:hover {
-    /* border-bottom: #0a58ca 2px solid; */
+    border-bottom: #0a58ca 2px solid;
     color: #0a58ca !important;
     transition: all 0.3s ease;
 }
 
 .navRight a.logBtn {
-    color: #1970fa !important;
-    font-weight: bold;
-    margin-right: 1rem;
-    font-size: 16px;
+    margin-right: 0.5rem;
+    padding: 0.5rem 1rem !important;
+    background: linear-gradient(0deg, rgb(0 116 215) 0%, rgb(33 150 243 / 97%) 100%);
+    color: #fff !important;
+    box-shadow: 0 6px 10px rgb(51 54 47 / 5%), 0 10px 16px rgb(51 51 50 / 6%);
+    border: #0d6efd 1px solid;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.navRight a.logBtn:first-child {
+    background: none;
+    color: #0a58ca !important;
+    border: #0a58ca 0px solid;
+    box-shadow: none;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-right: 2rem;
+    font-weight: 600;
+}
+
+.navRight a.logBtn:last-child {
+    margin-right: 0;
 }
 
 .navRight a.logBtn:hover {
-    color: #333;
+    background: #fff;
     transition: 0.5s;
+    color: #0d6efd !important;
 }
 
 .navRight a.exploreBtn {
@@ -74,8 +105,40 @@
     border: none;
 }
 
+.termCondition {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.termCondition a {
+    color: #0a58ca;
+    margin-left: 3px;
+}
+
+.term03 {
+    margin: 0 0.5rem
+}
+
 
 /*** Header Css End *****/
+
+
+/*** Sticky Menu Css Start *****/
+
+header.stickyMenuContainer {
+    z-index: 5;
+    width: 100%;
+    position: fixed;
+    transition: 0.3s linear;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    box-shadow: 0 2px 5px -1px rgba(0, 0, 0, .08);
+}
+
+
+/*** Sticky Menu Css End *****/
 
 @media(max-width:992px) {
     .mainHeader {
@@ -88,6 +151,8 @@
     }
     .navRight {
         margin-left: 1rem;
+        width: 11rem;
+        margin-top: 0.7rem;
     }
     .navRight a.logBtn {
         padding-top: 0;
@@ -95,5 +160,23 @@
     .menuName a:hover {
         border-bottom: #0a58ca 0px solid;
         color: #0a58ca;
+    }
+    .menuName a {
+        padding: 0 1rem !important;
+    }
+    header.stickyMenuContainer {
+        overflow-x: scroll;
+    }
+}
+
+@media(max-width:500px) {
+    .menuName a {
+        padding: 0 0.5rem !important;
+    }
+    .navRight {
+        margin-left: 0.5rem;
+    }
+    .navRight {
+        margin-top: 0rem;
     }
 }
